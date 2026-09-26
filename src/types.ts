@@ -141,6 +141,7 @@ export interface QuizQuestion {
   explanation: string;
   visualClueEmoji?: string;
   points: number;
+  textEvidence?: string;
 }
 
 export interface GobblefunkWord {

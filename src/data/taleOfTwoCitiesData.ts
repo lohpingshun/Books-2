@@ -133,16 +133,17 @@ export const TALE_OF_TWO_CITIES_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-ttc-56-1-comp",
-            question: "How did Lucie Manette help restore her father's memory and spirit after his long imprisonment?",
+            question: "What did Dr. Manette make while sitting in the dark attic room?",
             options: [
-              "She forced him to work eighteen hours a day in a clock factory",
-              "She surrounded him with patient love, tender care, and gentle music in London",
-              "She bought him a fleet of warships to attack Paris",
-              "She locked him in an underground cellar"
+              "Shoes on a shoemaker's bench",
+              "Wooden toys",
+              "Glass bottles",
+              "Straw hats"
             ],
-            correctIndex: 1,
-            explanation: "Lucie's devotion became the 'golden thread' that tied Dr. Manette back to sanity, health, and joy.",
-            visualClueEmoji: "💖",
+            correctIndex: 0,
+            textEvidence: "Upon a low stool sat a white-haired man, bending over a bench, making shoes.",
+            explanation: "From the text: 'Upon a low stool sat a white-haired man, bending over a bench, making shoes.'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -265,16 +266,17 @@ export const TALE_OF_TWO_CITIES_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-ttc-56-2-comp",
-            question: "How did Sydney Carton save Charles Darnay from being convicted at the Old Bailey?",
+            question: "Why was Charles Darnay acquitted at the Old Bailey court?",
             options: [
-              "He secretly climbed through the courtroom window and stole the evidence",
-              "He showed the jury that he and Darnay looked virtually identical, shattering the eyewitness's certainty",
-              "He offered the judge a sack of silver coins",
-              "He gave a five-hour speech about ancient Roman laws"
+              "He looked almost identical to Sydney Carton",
+              "He climbed out the court window",
+              "He gave the judge gold coins",
+              "He showed a letter from the King"
             ],
-            correctIndex: 1,
-            explanation: "Carton's uncanny physical likeness to Darnay made it impossible to prove beyond doubt that Darnay was the man seen by the spy.",
-            visualClueEmoji: "🪞",
+            correctIndex: 0,
+            textEvidence: "Carton and Darnay looked so astonishingly alike they could be twins.",
+            explanation: "From the text: Sydney Carton showed that he and Darnay looked so alike that the witness could not be sure.",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -397,16 +399,17 @@ export const TALE_OF_TWO_CITIES_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-ttc-56-3-comp",
-            question: "What sacred vow did Sydney Carton make to Lucie Manette in the quiet Soho garden?",
+            question: "What promise did Sydney Carton make to Lucie Manette in Soho?",
             options: [
-              "That he would buy her a castle in Scotland",
-              "That he would give his own life to save someone she loved if ever the need arose",
-              "That he would become the Lord Chief Justice of England",
-              "That he would never drink cold tea again"
+              "He would give his life to keep someone she loved beside her",
+              "He would build her a stone mansion",
+              "He would sail to America",
+              "He would give her a chest of gold"
             ],
-            correctIndex: 1,
-            explanation: "Carton promised that he would willingly sacrifice his life for anyone dear to Lucie.",
-            visualClueEmoji: "🕯️",
+            correctIndex: 0,
+            textEvidence: "I would give my life to keep a life you love beside you!",
+            explanation: "From the text: Carton promised, 'I would give my life to keep a life you love beside you!'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -529,16 +532,17 @@ export const TALE_OF_TWO_CITIES_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-ttc-56-4-comp",
-            question: "What secret code did Madame Defarge record into her red wool knitting?",
+            question: "What did Madame Defarge secretly knit into her red wool?",
             options: [
-              "Recipes for baking French baguettes and brioche",
-              "The names of aristocratic families condemned to face revolutionary justice",
-              "Songs to sing at the theatre in Soho",
-              "A map to an ancient Roman silver mine"
+              "Names of condemned enemies of the people",
+              "Songs for the village",
+              "Flower patterns",
+              "Knitting recipes"
             ],
-            correctIndex: 1,
-            explanation: "Madame Defarge used her rhythmic knitting to encode a secret blacklist of nobles targeted for vengeance.",
-            visualClueEmoji: "🧶",
+            correctIndex: 0,
+            textEvidence: "Madame Defarge was knitting the names of all the hated nobles condemned by the revolution.",
+            explanation: "From the text: Madame Defarge knitted the names of condemned aristocrats into her wool.",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -661,16 +665,17 @@ export const TALE_OF_TWO_CITIES_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-ttc-56-5-comp",
-            question: "Why did Charles Darnay risk his life to return to revolutionary Paris?",
+            question: "Why did Charles Darnay return to Paris?",
             options: [
-              "To search for buried family jewels inside the Louvre Palace",
-              "To rescue his loyal old steward Gabelle who had been imprisoned on his account",
-              "To buy a racing carriage for his London garden",
-              "To become the president of the revolutionary tribunal"
+              "To rescue his loyal old servant Gabelle",
+              "To find a buried chest of jewels",
+              "To buy a racing carriage",
+              "To visit the King's palace"
             ],
-            correctIndex: 1,
-            explanation: "Darnay's noble sense of honor compelled him to clear the name of his faithful servant Gabelle.",
-            visualClueEmoji: "🏇",
+            correctIndex: 0,
+            textEvidence: "A desperate letter had arrived from Gabelle, the loyal family servant... Darnay could not leave the innocent old man to die.",
+            explanation: "From the text: Darnay returned to Paris to rescue his loyal old servant Gabelle from prison.",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -793,16 +798,17 @@ export const TALE_OF_TWO_CITIES_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-ttc-56-6-comp",
-            question: "Why was Charles Darnay re-arrested and condemned after being initially freed by the tribunal?",
+            question: "What document did Defarge find hidden inside Dr. Manette's old prison cell?",
             options: [
-              "Because he tried to set fire to Tellson's Bank in London",
-              "Because Defarge revealed Dr. Manette's old Bastille diary condemning the Evremonde family",
-              "Because Darnay refused to wear a tricolor cockade on his hat",
-              "Because he attempted to rob the Paris National Guard"
+              "A paper written by Dr. Manette in the Bastille",
+              "A map of Paris",
+              "A gold coin",
+              "A pair of leather shoes"
             ],
-            correctIndex: 1,
-            explanation: "Dr. Manette's ancient prison testament—written long before he knew Darnay—unintentionally doomed his own son-in-law.",
-            visualClueEmoji: "📜",
+            correctIndex: 0,
+            textEvidence: "In 105 North Tower, announced Defarge, I discovered a hidden paper written by Dr. Manette in his own blood!",
+            explanation: "From the text: Defarge produced the paper Dr. Manette had hidden inside his cell in the Bastille.",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -925,16 +931,17 @@ export const TALE_OF_TWO_CITIES_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-ttc-56-7-comp",
-            question: "How did Sydney Carton execute his daring plan to save Charles Darnay from prison?",
+            question: "How did Sydney Carton take Darnay's place in the prison cell?",
             options: [
-              "He dug an underground tunnel from the river Seine to the dungeon cell",
-              "He drugged Darnay with sleeping vapor, exchanged clothes, and had Darnay carried out to the escape coach",
-              "He set off fireworks to distract the guards and scaled the wall with a rope",
-              "He challenged the prison warden to a chess match"
+              "He put Darnay to sleep with vapor and traded clothes",
+              "He dug an underground tunnel",
+              "He tied the guards with rope",
+              "He climbed down from the roof"
             ],
-            correctIndex: 1,
-            explanation: "Carton traded places with Darnay, taking his spot in the death cell so Charles could return to Lucie and their child.",
-            visualClueEmoji: "🌟",
+            correctIndex: 0,
+            textEvidence: "Carton opened a small glass phial of sleeping vapor... Carton exchanged coats, cravat, and boots with the sleeping prisoner.",
+            explanation: "From the text: Carton used sleeping vapor on Darnay and traded clothes with him so Darnay could escape.",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -1058,16 +1065,17 @@ export const TALE_OF_TWO_CITIES_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-ttc-56-8-comp",
-            question: "What famous immortal words represent Sydney Carton's final, peaceful thoughts on the scaffold?",
+            question: "What famous words were Sydney Carton's final thoughts?",
             options: [
-              "I wish I had bought more shares in the London railway company!",
-              "It is a far, far better thing that I do, than I have ever done; it is a far, far better rest that I go to, than I have ever known.",
-              "A horse! A horse! My kingdom for a horse!",
-              "Never trust a Frenchman with a basket of bread!"
+              "'It is a far, far better thing that I do, than I have ever done'",
+              "'Never give up the fight'",
+              "'Long live the King of England'",
+              "'Farewell to the dark sea'"
             ],
-            correctIndex: 1,
-            explanation: "Dickens' famous closing line captures Carton's ultimate redemption, giving up his life out of pure love for Lucie and her family.",
-            visualClueEmoji: "🕊️",
+            correctIndex: 0,
+            textEvidence: "It is a far, far better thing that I do, than I have ever done; it is a far, far better rest that I go to, than I have ever known.",
+            explanation: "From the text: Carton's final words were, 'It is a far, far better thing that I do, than I have ever done...'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {

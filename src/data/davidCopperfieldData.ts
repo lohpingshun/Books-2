@@ -133,16 +133,17 @@ export const DAVID_COPPERFIELD_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-dc-56-1-comp",
-            question: "Why was David Copperfield's home called 'The Rookery'?",
+            question: "What kind of trees grew near David's home where rooks used to live?",
             options: [
-              "Because it was built on top of a giant rook's nest in the mountains",
-              "Because tall elm trees surrounded it, where rooks used to build their nests",
-              "Because the roof was painted with pictures of blackbirds",
-              "Because David kept a pet parrot named Rook in the parlor"
+              "Tall elm trees",
+              "Apple trees",
+              "Pine trees",
+              "Oak trees"
             ],
-            correctIndex: 1,
-            explanation: "The house was named for the rooks that once nested in the surrounding elm trees.",
-            visualClueEmoji: "🌳",
+            correctIndex: 0,
+            textEvidence: "In a grove of tall old elm trees nearby, there used to be a great colony of rooks.",
+            explanation: "From the text: 'In a grove of tall old elm trees nearby, there used to be a great colony of rooks...'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -265,16 +266,17 @@ export const DAVID_COPPERFIELD_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-dc-56-2-comp",
-            question: "What made Mr. Dan Peggotty's home at Yarmouth so unique and delightful?",
+            question: "What was Mr. Dan Peggotty's home made from?",
             options: [
-              "It was built out of solid gold bricks brought from India",
-              "It was an upturned wooden boat barge fitted with a chimney and windows on the sandy beach",
-              "It was a tall windmill with rotating sails in the middle of a forest",
-              "It was an underground cave carved beneath a castle"
+              "A real wooden boat on the beach",
+              "A stone castle",
+              "A brick cottage",
+              "A wooden treehouse"
             ],
-            correctIndex: 1,
-            explanation: "Mr. Peggotty converted an old wooden fishing vessel into an extraordinarily cozy, nautical home.",
-            visualClueEmoji: "⛵",
+            correctIndex: 0,
+            textEvidence: "It was a real wooden boat that had once sailed the ocean waves. Now it was turned upside down on the beach.",
+            explanation: "From the text: 'It was a real wooden boat... turned upside down on the beach, fitted with tiny windows, a little door...'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -397,16 +399,17 @@ export const DAVID_COPPERFIELD_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-dc-56-3-comp",
-            question: "Why did young David walk seventy miles on foot all the way from London to Dover?",
+            question: "Who was David walking to Dover to find?",
             options: [
-              "To enter a competitive running race along the ocean beach",
-              "To escape cruel neglect at the wine warehouse and seek the protection of his Aunt Betsey Trotwood",
-              "To purchase a shipment of Yarmouth lobsters for Mr. Murdstone",
-              "To take a holiday boat to France"
+              "His Aunt Betsey Trotwood",
+              "His schoolmaster",
+              "The King of England",
+              "A sea captain"
             ],
-            correctIndex: 1,
-            explanation: "David refused to remain in despair and bravely walked across Kent to find his only living relative.",
-            visualClueEmoji: "🚶",
+            correctIndex: 0,
+            textEvidence: "I resolved to run away to the only relative I possessed—my great-aunt, Miss Betsey Trotwood in Dover.",
+            explanation: "From the text: David ran away to find his great-aunt, Miss Betsey Trotwood in Dover.",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -529,16 +532,17 @@ export const DAVID_COPPERFIELD_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-dc-56-4-comp",
-            question: "What wise advice did Mr. Dick give Aunt Betsey when ragged little David collapsed on her lawn?",
+            question: "What did Mr. Dick tell Aunt Betsey to do with ragged little David?",
             options: [
-              "To put David in a cage and ship him to Australia",
-              "To wash him, feed him, and give him warm clothes",
-              "To make David ride a donkey across the grass",
-              "To call the police constable immediately"
+              "'Wash him, feed him, and put him to bed!'",
+              "'Send him back to London!'",
+              "'Make him sweep the lawn!'",
+              "'Call the village constable!'"
             ],
-            correctIndex: 1,
-            explanation: "Mr. Dick's simple, kind advice ('Wash him!') cut through the confusion and saved David's life.",
-            visualClueEmoji: "🪁",
+            correctIndex: 0,
+            textEvidence: "Do with him? Why, wash him, feed him, and put him to bed!",
+            explanation: "From the text: Mr. Dick said, 'Why, wash him, feed him, and put him to bed!'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -661,16 +665,17 @@ export const DAVID_COPPERFIELD_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-dc-56-5-comp",
-            question: "What was Mr. Micawber's famous catchphrase whenever difficulties or debts arose?",
+            question: "What did Mr. Micawber always say would happen soon?",
             options: [
-              "Run away to the mountains and hide!",
-              "In short, something will turn up!",
-              "Never speak to a stranger on the road!",
-              "Sell the furniture and buy a donkey!"
+              "'Something will turn up!'",
+              "'Give up all hope!'",
+              "'It will snow forever!'",
+              "'Pack the bags and run!'"
             ],
-            correctIndex: 1,
-            explanation: "Mr. Micawber was famous for his buoyant, cheerful catchphrase that 'something will turn up!'",
-            visualClueEmoji: "🎩",
+            correctIndex: 0,
+            textEvidence: "until something turns up—which I have no doubt will occur tomorrow morning!",
+            explanation: "From the text: Mr. Micawber always declared that 'something will turn up!'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -793,16 +798,17 @@ export const DAVID_COPPERFIELD_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-dc-56-6-comp",
-            question: "Why was Uriah Heep's claim of being 'so 'umble' actually false and deceitful?",
+            question: "What word did Uriah Heep repeat to describe himself?",
             options: [
-              "Because he secretly wanted to be an opera singer in Milan",
-              "Because his humility was an evil disguise while he forged legal documents and schemed to take over the firm",
-              "Because he gave away all his coats to poor orphans in the street",
-              "Because he refused to eat anything except gold-leaf cakes"
+              "'Umble' (humble)",
+              "'Fierce'",
+              "'Rich'",
+              "'Noble'"
             ],
-            correctIndex: 1,
-            explanation: "Uriah used false humility as a smokescreen to trick, blackmail, and manipulate Mr. Wickfield.",
-            visualClueEmoji: "🦎",
+            correctIndex: 0,
+            textEvidence: "I am well aware that I am the 'umblest person going, squeaked Uriah.",
+            explanation: "From the text: Uriah said, 'I am well aware that I am the 'umblest person going...'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -925,16 +931,17 @@ export const DAVID_COPPERFIELD_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-dc-56-7-comp",
-            question: "How did Mr. Micawber dramatically expose Uriah Heep's crimes in the office?",
+            question: "What did Mr. Micawber prove Uriah Heep had done?",
             options: [
-              "He challenged Uriah to a wrestling match on the lawn",
-              "He read a detailed accusation backed by secret copies of Uriah's forged signatures and ledgers",
-              "He bought the entire legal building and turned it into an inn",
-              "He hid inside a grandfather clock until midnight"
+              "Forged signatures and stole money",
+              "Stole a sailing boat",
+              "Burned down the barn",
+              "Broke a grandfather clock"
             ],
-            correctIndex: 1,
-            explanation: "Mr. Micawber used his clerical access to gather indisputable proof of Uriah's fraud and forgery.",
-            visualClueEmoji: "📜",
+            correctIndex: 0,
+            textEvidence: "Uriah had forged Mr. Wickfield's signature, stole money, and altered the accounts!",
+            explanation: "From the text: 'Uriah had forged Mr. Wickfield's signature, stole money, and altered the accounts!'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -1057,16 +1064,17 @@ export const DAVID_COPPERFIELD_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-dc-56-8-comp",
-            question: "What great life achievement did David Copperfield attain through his perseverance and imagination?",
+            question: "What did David Copperfield become when he grew up?",
             options: [
-              "He became a sea captain hunting whales in the Arctic",
-              "He became a renowned, beloved author whose books inspired millions of readers",
-              "He became a gold miner in California",
-              "He became the headmaster of Salem House school"
+              "A famous author writing books",
+              "A blacksmith at the forge",
+              "A sailor on a fishing boat",
+              "A soldier in the army"
             ],
-            correctIndex: 1,
-            explanation: "David turned his painful childhood experiences into uplifting, celebrated works of literature.",
-            visualClueEmoji: "✍️",
+            correctIndex: 0,
+            textEvidence: "My stories were printed into handsome books that travelled across the sea into thousands of homes.",
+            explanation: "From the text: David became an author whose stories were printed into books.",
+            visualClueEmoji: "📖",
             points: 60
           },
           {

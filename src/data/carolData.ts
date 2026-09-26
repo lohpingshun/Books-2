@@ -151,16 +151,17 @@ export const CAROL_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-cc-56-1-comp",
-            question: "Why did Jacob Marley's ghost visit Ebenezer Scrooge on Christmas Eve?",
+            question: "Who did Marley tell Scrooge would visit him?",
             options: [
-              "To steal Scrooge's heavy iron safe keys and gold coins",
-              "To warn him of his selfish path and offer him a chance at redemption through Three Spirits",
-              "To invite Scrooge to a holiday masquerade ball in Paris",
-              "To borrow Bob Cratchit's warm woolen muffler"
+              "Three Spirits",
+              "Three police officers",
+              "Three bankers",
+              "Three sailors"
             ],
-            correctIndex: 1,
-            explanation: "Marley came from beyond the grave to give Scrooge one final chance to escape his own heavy chains.",
-            visualClueEmoji: "👻",
+            correctIndex: 0,
+            textEvidence: "You will be visited by Three Spirits!",
+            explanation: "From the text: Marley warned Scrooge, 'You will be visited by Three Spirits!'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -283,16 +284,17 @@ export const CAROL_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-cc-56-2-comp",
-            question: "Why did Ebenezer Scrooge weep when he looked into the old schoolroom window?",
+            question: "Who was the lonely boy sitting by the fire in the schoolroom?",
             options: [
-              "Because he saw himself as a lonely, neglected boy reading books all alone",
-              "Because the teacher had locked him outside in a blizzard",
-              "Because his desk was covered in melted candle wax",
-              "Because he forgot how to spell his sister's name"
+              "Scrooge when he was a boy",
+              "Bob Cratchit",
+              "Nephew Fred",
+              "Tiny Tim"
             ],
             correctIndex: 0,
-            explanation: "Seeing his lonely childhood self unlocked Scrooge's buried empathy and softened his cold heart.",
-            visualClueEmoji: "🥺",
+            textEvidence: "Poor boy! he sobbed. That child was me!",
+            explanation: "From the text: Scrooge looked at the solitary child and wept, 'That child was me!'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -415,16 +417,17 @@ export const CAROL_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-cc-56-3-comp",
-            question: "What lesson did Scrooge realize while watching Mr. Fezziwig's Christmas Eve dance?",
+            question: "What did Mr. Fezziwig tell his workers to do because it was Christmas Eve?",
             options: [
-              "That masters should make their workers labor through the midnight hour to make more profit",
-              "That a kind master can make work joyful and full of light without spending a large fortune",
-              "That fiddles are much too loud for a quiet London office",
-              "That mince pies are tastier when hidden in the counting desk"
+              "Stop working and clear the room for dancing",
+              "Work through the night",
+              "Lock the counting desk",
+              "Go home without pay"
             ],
-            correctIndex: 1,
-            explanation: "Scrooge realized that Fezziwig's warm goodwill made his workers feel valued and happy beyond all monetary wealth.",
-            visualClueEmoji: "🎅",
+            correctIndex: 0,
+            textEvidence: "No more work tonight! It is Christmas Eve! Clear away, boys, and let us have lots of room!",
+            explanation: "From the text: Fezziwig laughed and cried, 'No more work tonight! It is Christmas Eve! Clear away, boys!'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -547,16 +550,17 @@ export const CAROL_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-cc-56-4-comp",
-            question: "How did the Cratchit family feel about their Christmas dinner even though it was modest?",
+            question: "What did Tiny Tim use to help him walk?",
             options: [
-              "They were overjoyed, thankful, and celebrated with deep love and gratitude",
-              "They complained bitterly that there was no chocolate cake",
-              "They refused to sit at the wooden table until Bob bought a larger turkey",
-              "They packed their bags and walked to another country"
+              "A little wooden crutch",
+              "A pair of roller skates",
+              "A walking stick with bells",
+              "A rolling cart"
             ],
             correctIndex: 0,
-            explanation: "The Cratchits proved that family affection, warmth, and gratitude matter far more than lavish luxury.",
-            visualClueEmoji: "🍗",
+            textEvidence: "Tiny Tim bore a little wooden crutch, his limbs supported by an iron frame.",
+            explanation: "From the text: 'Tiny Tim bore a little wooden crutch, his limbs supported by an iron frame.'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -680,16 +684,17 @@ export const CAROL_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-cc-56-5-comp",
-            question: "What did the Ghost of Christmas Present say would happen to Tiny Tim if the future remained unaltered?",
+            question: "What famous blessing did Tiny Tim say at the dinner table?",
             options: [
-              "Tiny Tim would become the Mayor of London",
-              "The child would die and leave a vacant seat by the fireplace",
-              "Tiny Tim would move to America to build trains",
-              "Bob would buy him a solid gold pony"
+              "'God bless us every one!'",
+              "'Happy New Year to all!'",
+              "'May we find golden coins!'",
+              "'Good night and sleep well!'"
             ],
-            correctIndex: 1,
-            explanation: "The spirit warned that poverty and neglected health would claim Tiny Tim unless someone showed generosity.",
-            visualClueEmoji: "🪑",
+            correctIndex: 0,
+            textEvidence: "God bless us every one! said Tiny Tim, the last of all.",
+            explanation: "From the text: Tiny Tim said, 'God bless us every one!'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -813,16 +818,17 @@ export const CAROL_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-cc-56-6-comp",
-            question: "What shocking discovery did Ebenezer Scrooge make in the weed-choked churchyard?",
+            question: "What name was carved on the gravestone in the churchyard?",
             options: [
-              "He found a buried wooden chest filled with Spanish gold doubloons",
-              "He read his own name carved on the neglected, unmourned gravestone",
-              "He discovered that Bob Cratchit had bought a country estate",
-              "He saw that the churchyard had been turned into a joyful carnival"
+              "EBENEZER SCROOGE",
+              "JACOB MARLEY",
+              "BOB CRATCHIT",
+              "MR. FEZZIWIG"
             ],
-            correctIndex: 1,
-            explanation: "Seeing his own lonely grave made Scrooge realize the tragic end awaiting him unless he transformed his heart.",
-            visualClueEmoji: "🪦",
+            correctIndex: 0,
+            textEvidence: "Upon the cold stone he read his own name: EBENEZER SCROOGE.",
+            explanation: "From the text: 'Upon the cold stone he read his own name: EBENEZER SCROOGE.'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -946,16 +952,17 @@ export const CAROL_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-cc-56-7-comp",
-            question: "What generous secret deed did Scrooge perform first on Christmas morning?",
+            question: "What did Scrooge buy to send to Bob Cratchit?",
             options: [
-              "He secretly purchased the giant prize turkey and had it delivered to Bob Cratchit's family",
-              "He bought all the ink quills in London to write more contracts",
-              "He boarded a ship to travel across the Atlantic Ocean",
-              "He locked all his gold coins in an iron vault underground"
+              "The giant prize turkey",
+              "A sack of dry bread",
+              "A bucket of black coal",
+              "A box of writing quills"
             ],
             correctIndex: 0,
-            explanation: "Scrooge delighted in secretly sending the enormous turkey to Bob Cratchit's family without taking any credit.",
-            visualClueEmoji: "🦃",
+            textEvidence: "Go and buy it! cried Scrooge... I will send it to Bob Cratchit!",
+            explanation: "From the text: Scrooge sent the giant prize turkey to Bob Cratchit for Christmas dinner.",
+            visualClueEmoji: "📖",
             points: 60
           },
           {
@@ -1079,16 +1086,17 @@ export const CAROL_BOOK: Book = {
         quizQuestions: [
           {
             id: "q-cc-56-8-comp",
-            question: "How did Scrooge surprise Bob Cratchit the morning after Christmas?",
+            question: "What surprise did Scrooge give Bob Cratchit the morning after Christmas?",
             options: [
-              "He fired Bob and sent him to work in the coal mines",
-              "He raised Bob's salary, promised to support his family, and told him to kindle a warm roaring fire",
-              "He moved his office to the countryside and left no forwarding note",
-              "He gave Bob a bag of dry porridge beans"
+              "He raised his salary",
+              "He fired him from his job",
+              "He moved his office away",
+              "He gave him a bag of beans"
             ],
-            correctIndex: 1,
-            explanation: "Scrooge greeted Bob with laughter, doubled his wages, and pledged lifelong friendship and care for Tiny Tim.",
-            visualClueEmoji: "🌟",
+            correctIndex: 0,
+            textEvidence: "I am not going to stand this thing any longer! And therefore, I am going to raise your salary!",
+            explanation: "From the text: Scrooge smiled and said, 'I am going to raise your salary!'",
+            visualClueEmoji: "📖",
             points: 60
           },
           {

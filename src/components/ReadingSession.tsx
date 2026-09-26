@@ -534,7 +534,7 @@ export const ReadingSession: React.FC<ReadingSessionProps> = ({
                       <div className="bg-[#FFCC33]/20 p-5 rounded-2xl border-2 border-[#FFCC33] flex flex-col gap-3 font-sans mt-2 shadow-xs">
                         <div className="flex items-center justify-between">
                           <span className="flex items-center gap-1.5 text-xs font-black text-[#E74C3C] uppercase tracking-wider">
-                            <Lightbulb className="w-4 h-4 text-amber-500" /> Think & Connect Checkpoint
+                            <BookOpen className="w-4 h-4 text-amber-600" /> Quick Story Check (From The Text)
                           </span>
                           <span className="text-xs font-black text-amber-900 bg-amber-200 px-2 py-0.5 rounded-full">
                             +{normPrompt.rewardKP} KP
@@ -585,10 +585,15 @@ export const ReadingSession: React.FC<ReadingSessionProps> = ({
                           <motion.div
                             initial={{ opacity: 0, y: -4 }}
                             animate={{ opacity: 1, y: 0 }}
-                            className="bg-white/90 p-3 rounded-xl border border-emerald-400 text-xs text-[#2D1B36] flex items-center gap-2"
+                            className="bg-white/90 p-3 rounded-xl border border-emerald-400 text-xs text-[#2D1B36] flex items-start gap-2"
                           >
-                            <Sparkles className="w-4 h-4 text-emerald-600 shrink-0" />
-                            <p className="font-medium">{normPrompt.insight}</p>
+                            <Sparkles className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                            <div>
+                              <span className="inline-block px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800 font-black text-[10px] uppercase mr-1.5">
+                                From the text
+                              </span>
+                              <span className="font-medium">{normPrompt.insight}</span>
+                            </div>
                           </motion.div>
                         )}
                       </div>

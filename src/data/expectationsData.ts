@@ -205,16 +205,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-56-1-comp",
-            "question": "What two critical items did the escaped convict command Pip to bring to him on the marsh?",
+            "question": "What did the man on the marsh tell Pip to bring him?",
             "options": [
-              "A pair of leather boots and a warm woollen overcoat",
-              "A blacksmith's file to cut his chains and some savoury food",
-              "A silver watch and a bottle of writing ink",
-              "A wooden rowboat and a brass compass"
+              "A blacksmith's file and some food",
+              "A warm coat and boots",
+              "A rowboat and compass",
+              "A lantern and silver watch"
             ],
-            "correctIndex": 1,
-            "explanation": "Magwitch desperately needed a blacksmith's file to cut off his iron fetters and food to stay alive.",
-            "visualClueEmoji": "⛓️",
+            "correctIndex": 0,
+            "textEvidence": "He told me that if I did not bring him a blacksmith's file to cut his chains and some food by morning, a fierce companion would catch me.",
+            "explanation": "From the text: 'He told me that if I did not bring him a blacksmith's file to cut his chains and some food by morning...'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -227,7 +228,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Visits"
             ],
             "correctIndex": 2,
-            "explanation": "In this chapter, \"Terrified\" means overcome with extreme, trembling fear.",
+            "explanation": "In this chapter, \'Terrified\' means overcome with extreme, trembling fear.",
             "visualClueEmoji": "😨",
             "points": 60
           }
@@ -422,16 +423,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-56-2-comp",
-            "question": "Which two letters did kind blacksmith Joe proudly identify on Pip's writing slate?",
+            "question": "Which two letters could Joe Gargery read on the slate?",
             "options": [
-              "The letters 'A' and 'B' because they were at the front of the book",
-              "The letters 'P' and 'I' because they spelled Pip",
-              "The letters 'J' and 'O' because they spelled his name",
-              "The letters 'X' and 'Z' because they looked like crossed swords"
+              "The letters 'J' and 'O'",
+              "The letters 'A' and 'B'",
+              "The letters 'P' and 'I'",
+              "The letters 'X' and 'Y'"
             ],
-            "correctIndex": 2,
-            "explanation": "Joe proudly pointed out 'J' and 'O', saying they made up his own cheerful name.",
-            "visualClueEmoji": "📝",
+            "correctIndex": 0,
+            "textEvidence": "Joe knew the letter 'J' and the letter 'O' because they spelled his name!",
+            "explanation": "From the text: 'Joe knew the letter 'J' and the letter 'O' because they spelled his name!'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -444,7 +446,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Gentle"
             ],
             "correctIndex": 0,
-            "explanation": "In this chapter, \"Blacksmith\" means a craftsman who heats iron in a forge and hammers it into tools.",
+            "explanation": "In this chapter, \'Blacksmith\' means a craftsman who heats iron in a forge and hammers it into tools.",
             "visualClueEmoji": "👨‍🏭",
             "points": 60
           }
@@ -640,16 +642,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-56-3-comp",
-            "question": "What had happened to Miss Havisham's bridal gown after years of living in the dark?",
+            "question": "What had happened to the golden clock on Miss Havisham's mantelpiece?",
             "options": [
-              "It had faded and yellowed like withered autumn leaves",
-              "It had turned bright crimson red like a ruby",
-              "It was bleached sparkling clean every morning",
-              "It was dyed dark purple by the house servants"
+              "It was stopped at twenty minutes to nine",
+              "It was ticking very fast",
+              "It had melted in the fireplace",
+              "It was chiming every minute"
             ],
             "correctIndex": 0,
-            "explanation": "The text states that her silk dress had aged, faded, and yellowed over the decades.",
-            "visualClueEmoji": "👰",
+            "textEvidence": "Its hands were frozen at twenty minutes to nine. Miss Havisham's own watch... pointed to the exact same hour.",
+            "explanation": "From the text: The clock was not ticking and its hands were frozen at twenty minutes to nine.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -662,7 +665,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Cobweb"
             ],
             "correctIndex": 3,
-            "explanation": "In this chapter, \"Cobweb\" means a dusty, tangled web spun by a spider, often found in old houses.",
+            "explanation": "In this chapter, \'Cobweb\' means a dusty, tangled web spun by a spider, often found in old houses.",
             "visualClueEmoji": "🕸️",
             "points": 60
           }
@@ -859,16 +862,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-56-4-comp",
-            "question": "Why did Pip hide behind the stone wall in the courtyard and weep bitter tears?",
+            "question": "What game did Estella and Pip play with the cards?",
             "options": [
-              "Because he lost his favourite marble in the courtyard drain",
-              "Because Miss Havisham refused to let him taste the wedding cake",
-              "Because he was frightened of the guard dogs in the brewery",
-              "Because Estella's mocking words about his coarse hands and boots hurt his pride deeply"
+              "Beggar My Neighbour",
+              "Go Fish",
+              "Snap",
+              "Chess"
             ],
-            "correctIndex": 3,
-            "explanation": "Estella's cruel ridicule of his humble background deeply wounded Pip's self-esteem.",
-            "visualClueEmoji": "😢",
+            "correctIndex": 0,
+            "textEvidence": "We played a game called Beggar My Neighbour. I was so nervous that I kept dropping my cards on the dusty floor.",
+            "explanation": "From the text: Pip and Estella played a card game called 'Beggar My Neighbour'.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -881,7 +885,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Estella"
             ],
             "correctIndex": 1,
-            "explanation": "In this chapter, \"Haughty\" means arrogantly proud and looking down upon others as inferior.",
+            "explanation": "In this chapter, \'Haughty\' means arrogantly proud and looking down upon others as inferior.",
             "visualClueEmoji": "👑",
             "points": 60
           }
@@ -1078,16 +1082,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-56-5-comp",
-            "question": "What two strict conditions were placed upon Pip receiving his fortune?",
+            "question": "What was one of the conditions for Pip to receive his fortune?",
             "options": [
-              "He must live in Satis House and marry Estella within three years",
-              "He must wear black coats every day and learn how to fence",
-              "He must always keep the name Pip and never ask who his secret benefactor was",
-              "He must give half his yearly allowance to the village churchyard"
+              "He must always keep the name Pip",
+              "He must live in a castle",
+              "He must never wear boots",
+              "He must never eat bread"
             ],
-            "correctIndex": 2,
-            "explanation": "Mr. Jaggers explicitly instructed that Pip must keep his name and never seek the identity of his patron.",
-            "visualClueEmoji": "⚖️",
+            "correctIndex": 0,
+            "textEvidence": "There were only two strict conditions: I must always keep the name of Pip, and I must never ask who the secret benefactor was.",
+            "explanation": "From the text: Mr. Jaggers said, 'I must always keep the name of Pip...'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -1100,7 +1105,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Benefactor"
             ],
             "correctIndex": 3,
-            "explanation": "In this chapter, \"Benefactor\" means a generous person who gives financial help or gifts to support someone.",
+            "explanation": "In this chapter, \'Benefactor\' means a generous person who gives financial help or gifts to support someone.",
             "visualClueEmoji": "🎁",
             "points": 60
           }
@@ -1296,16 +1301,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-56-6-comp",
-            "question": "What affectionate musical nickname did Herbert Pocket give Pip in honour of his forge background?",
+            "question": "What nickname did Herbert Pocket give Pip?",
             "options": [
-              "Handel, after the composer of 'The Harmonious Blacksmith'",
-              "Mozart, because Pip played the parlour violin",
-              "Beethoven, after the stormy thunder music",
-              "Chopin, because of Pip's delicate handwriting"
+              "'Handel'",
+              "'Smithy'",
+              "'Captain'",
+              "'Scholar'"
             ],
             "correctIndex": 0,
-            "explanation": "Herbert nicknamed Pip 'Handel' because Handel composed 'The Harmonious Blacksmith'.",
-            "visualClueEmoji": "🎵",
+            "textEvidence": "Because of Joe's forge, he gave me the affectionate nickname 'Handel', after the famous composer who wrote 'The Harmonious Blacksmith'.",
+            "explanation": "From the text: Herbert gave Pip the nickname 'Handel' after the composer of 'The Harmonious Blacksmith'.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -1318,7 +1324,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Rooms"
             ],
             "correctIndex": 1,
-            "explanation": "In this chapter, \"Bustling\" means full of lively, energetic, and crowded activity.",
+            "explanation": "In this chapter, \'Bustling\' means full of lively, energetic, and crowded activity.",
             "visualClueEmoji": "🏙️",
             "points": 60
           }
@@ -1516,16 +1522,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-56-7-comp",
-            "question": "How did Magwitch earn the fortune that paid for Pip's gentlemanly education?",
+            "question": "Who was Pip's real secret benefactor who gave the money?",
             "options": [
-              "By discovering a pirate treasure chest in the English Channel",
-              "By winning horse races at the royal fair in Epsom",
-              "By inheriting an old silver mine in the Scottish Highlands",
-              "By working hard for twenty years as a successful sheep-farmer in Australia"
+              "Magwitch the convict",
+              "Miss Havisham",
+              "Uncle Pumblechook",
+              "Mr. Jaggers"
             ],
-            "correctIndex": 3,
-            "explanation": "Magwitch endured decades of harsh labor in Australia, sending all his earnings to Mr. Jaggers for Pip.",
-            "visualClueEmoji": "🐑",
+            "correctIndex": 0,
+            "textEvidence": "Look at me, Pip! he cried. I am the hunted prisoner you fed on the cold marsh with a pork pie and Joe's file!",
+            "explanation": "From the text: Magwitch revealed, 'I am the hunted prisoner you fed on the cold marsh with a pork pie and Joe's file!'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -1538,7 +1545,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Night"
             ],
             "correctIndex": 0,
-            "explanation": "In this chapter, \"Tempestuous\" means characterized by violent, stormy, and wild wind and rain.",
+            "explanation": "In this chapter, \'Tempestuous\' means characterized by violent, stormy, and wild wind and rain.",
             "visualClueEmoji": "🌪️",
             "points": 60
           }
@@ -1736,16 +1743,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-56-8-comp",
-            "question": "What profound moral lesson did Pip finally learn after his journey of great expectations?",
+            "question": "Who came to nurse Pip back to health when he fell ill?",
             "options": [
-              "It is always best to stay away from rivers on foggy mornings",
-              "True greatness and nobility come from an honest, loving heart, not money or fancy clothes",
-              "Only people who own big mansions in London can be happy",
-              "A blacksmith should never learn how to read or write"
+              "Joe Gargery",
+              "Estella",
+              "Uncle Pumblechook",
+              "Mr. Jaggers"
             ],
-            "correctIndex": 1,
-            "explanation": "Pip realized that Joe Gargery's humble, loyal love was far more noble than superficial wealth.",
-            "visualClueEmoji": "💖",
+            "correctIndex": 0,
+            "textEvidence": "When I opened my eyes, dear Joe Gargery was sitting by my bedside, nursing me back to health.",
+            "explanation": "From the text: 'When I opened my eyes, dear Joe Gargery was sitting by my bedside, nursing me back to health.'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -1758,7 +1766,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Magwitch"
             ],
             "correctIndex": 2,
-            "explanation": "In this chapter, \"Devotion\" means deep, steadfast loyalty, dedication, and affectionate love.",
+            "explanation": "In this chapter, \'Devotion\' means deep, steadfast loyalty, dedication, and affectionate love.",
             "visualClueEmoji": "💖",
             "points": 60
           }
@@ -1955,16 +1963,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-78-1-comp",
-            "question": "What two critical items did the escaped convict command Pip to bring to him on the marsh?",
+            "question": "What did the man on the marsh tell Pip to bring him?",
             "options": [
-              "A pair of leather boots and a warm woollen overcoat",
-              "A blacksmith's file to cut his chains and some savoury food",
-              "A silver watch and a bottle of writing ink",
-              "A wooden rowboat and a brass compass"
+              "A blacksmith's file and some food",
+              "A warm coat and boots",
+              "A rowboat and compass",
+              "A lantern and silver watch"
             ],
-            "correctIndex": 1,
-            "explanation": "Magwitch desperately needed a blacksmith's file to cut off his iron fetters and food to stay alive.",
-            "visualClueEmoji": "⛓️",
+            "correctIndex": 0,
+            "textEvidence": "He told me that if I did not bring him a blacksmith's file to cut his chains and some food by morning, a fierce companion would catch me.",
+            "explanation": "From the text: 'He told me that if I did not bring him a blacksmith's file to cut his chains and some food by morning...'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -1977,7 +1986,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Visits"
             ],
             "correctIndex": 2,
-            "explanation": "In this chapter, \"Terrified\" means overcome with extreme, trembling fear.",
+            "explanation": "In this chapter, \'Terrified\' means overcome with extreme, trembling fear.",
             "visualClueEmoji": "😨",
             "points": 60
           }
@@ -2172,16 +2181,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-78-2-comp",
-            "question": "Which two letters did kind blacksmith Joe proudly identify on Pip's writing slate?",
+            "question": "Which two letters could Joe Gargery read on the slate?",
             "options": [
-              "The letters 'A' and 'B' because they were at the front of the book",
-              "The letters 'P' and 'I' because they spelled Pip",
-              "The letters 'J' and 'O' because they spelled his name",
-              "The letters 'X' and 'Z' because they looked like crossed swords"
+              "The letters 'J' and 'O'",
+              "The letters 'A' and 'B'",
+              "The letters 'P' and 'I'",
+              "The letters 'X' and 'Y'"
             ],
-            "correctIndex": 2,
-            "explanation": "Joe proudly pointed out 'J' and 'O', saying they made up his own cheerful name.",
-            "visualClueEmoji": "📝",
+            "correctIndex": 0,
+            "textEvidence": "Joe knew the letter 'J' and the letter 'O' because they spelled his name!",
+            "explanation": "From the text: 'Joe knew the letter 'J' and the letter 'O' because they spelled his name!'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -2194,7 +2204,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Gentle"
             ],
             "correctIndex": 0,
-            "explanation": "In this chapter, \"Blacksmith\" means a craftsman who heats iron in a forge and hammers it into tools.",
+            "explanation": "In this chapter, \'Blacksmith\' means a craftsman who heats iron in a forge and hammers it into tools.",
             "visualClueEmoji": "👨‍🏭",
             "points": 60
           }
@@ -2390,16 +2400,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-78-3-comp",
-            "question": "What had happened to Miss Havisham's bridal gown after years of living in the dark?",
+            "question": "What had happened to the golden clock on Miss Havisham's mantelpiece?",
             "options": [
-              "It had faded and yellowed like withered autumn leaves",
-              "It had turned bright crimson red like a ruby",
-              "It was bleached sparkling clean every morning",
-              "It was dyed dark purple by the house servants"
+              "It was stopped at twenty minutes to nine",
+              "It was ticking very fast",
+              "It had melted in the fireplace",
+              "It was chiming every minute"
             ],
             "correctIndex": 0,
-            "explanation": "The text states that her silk dress had aged, faded, and yellowed over the decades.",
-            "visualClueEmoji": "👰",
+            "textEvidence": "Its hands were frozen at twenty minutes to nine. Miss Havisham's own watch... pointed to the exact same hour.",
+            "explanation": "From the text: The clock was not ticking and its hands were frozen at twenty minutes to nine.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -2412,7 +2423,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Cobweb"
             ],
             "correctIndex": 3,
-            "explanation": "In this chapter, \"Cobweb\" means a dusty, tangled web spun by a spider, often found in old houses.",
+            "explanation": "In this chapter, \'Cobweb\' means a dusty, tangled web spun by a spider, often found in old houses.",
             "visualClueEmoji": "🕸️",
             "points": 60
           }
@@ -2609,16 +2620,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-78-4-comp",
-            "question": "Why did Pip hide behind the stone wall in the courtyard and weep bitter tears?",
+            "question": "What game did Estella and Pip play with the cards?",
             "options": [
-              "Because he lost his favourite marble in the courtyard drain",
-              "Because Miss Havisham refused to let him taste the wedding cake",
-              "Because he was frightened of the guard dogs in the brewery",
-              "Because Estella's mocking words about his coarse hands and boots hurt his pride deeply"
+              "Beggar My Neighbour",
+              "Go Fish",
+              "Snap",
+              "Chess"
             ],
-            "correctIndex": 3,
-            "explanation": "Estella's cruel ridicule of his humble background deeply wounded Pip's self-esteem.",
-            "visualClueEmoji": "😢",
+            "correctIndex": 0,
+            "textEvidence": "We played a game called Beggar My Neighbour. I was so nervous that I kept dropping my cards on the dusty floor.",
+            "explanation": "From the text: Pip and Estella played a card game called 'Beggar My Neighbour'.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -2631,7 +2643,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Estella"
             ],
             "correctIndex": 1,
-            "explanation": "In this chapter, \"Haughty\" means arrogantly proud and looking down upon others as inferior.",
+            "explanation": "In this chapter, \'Haughty\' means arrogantly proud and looking down upon others as inferior.",
             "visualClueEmoji": "👑",
             "points": 60
           }
@@ -2828,16 +2840,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-78-5-comp",
-            "question": "What two strict conditions were placed upon Pip receiving his fortune?",
+            "question": "What was one of the conditions for Pip to receive his fortune?",
             "options": [
-              "He must live in Satis House and marry Estella within three years",
-              "He must wear black coats every day and learn how to fence",
-              "He must always keep the name Pip and never ask who his secret benefactor was",
-              "He must give half his yearly allowance to the village churchyard"
+              "He must always keep the name Pip",
+              "He must live in a castle",
+              "He must never wear boots",
+              "He must never eat bread"
             ],
-            "correctIndex": 2,
-            "explanation": "Mr. Jaggers explicitly instructed that Pip must keep his name and never seek the identity of his patron.",
-            "visualClueEmoji": "⚖️",
+            "correctIndex": 0,
+            "textEvidence": "There were only two strict conditions: I must always keep the name of Pip, and I must never ask who the secret benefactor was.",
+            "explanation": "From the text: Mr. Jaggers said, 'I must always keep the name of Pip...'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -2850,7 +2863,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Benefactor"
             ],
             "correctIndex": 3,
-            "explanation": "In this chapter, \"Benefactor\" means a generous person who gives financial help or gifts to support someone.",
+            "explanation": "In this chapter, \'Benefactor\' means a generous person who gives financial help or gifts to support someone.",
             "visualClueEmoji": "🎁",
             "points": 60
           }
@@ -3046,16 +3059,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-78-6-comp",
-            "question": "What affectionate musical nickname did Herbert Pocket give Pip in honour of his forge background?",
+            "question": "What nickname did Herbert Pocket give Pip?",
             "options": [
-              "Handel, after the composer of 'The Harmonious Blacksmith'",
-              "Mozart, because Pip played the parlour violin",
-              "Beethoven, after the stormy thunder music",
-              "Chopin, because of Pip's delicate handwriting"
+              "'Handel'",
+              "'Smithy'",
+              "'Captain'",
+              "'Scholar'"
             ],
             "correctIndex": 0,
-            "explanation": "Herbert nicknamed Pip 'Handel' because Handel composed 'The Harmonious Blacksmith'.",
-            "visualClueEmoji": "🎵",
+            "textEvidence": "Because of Joe's forge, he gave me the affectionate nickname 'Handel', after the famous composer who wrote 'The Harmonious Blacksmith'.",
+            "explanation": "From the text: Herbert gave Pip the nickname 'Handel' after the composer of 'The Harmonious Blacksmith'.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -3068,7 +3082,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Rooms"
             ],
             "correctIndex": 1,
-            "explanation": "In this chapter, \"Bustling\" means full of lively, energetic, and crowded activity.",
+            "explanation": "In this chapter, \'Bustling\' means full of lively, energetic, and crowded activity.",
             "visualClueEmoji": "🏙️",
             "points": 60
           }
@@ -3266,16 +3280,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-78-7-comp",
-            "question": "How did Magwitch earn the fortune that paid for Pip's gentlemanly education?",
+            "question": "Who was Pip's real secret benefactor who gave the money?",
             "options": [
-              "By discovering a pirate treasure chest in the English Channel",
-              "By winning horse races at the royal fair in Epsom",
-              "By inheriting an old silver mine in the Scottish Highlands",
-              "By working hard for twenty years as a successful sheep-farmer in Australia"
+              "Magwitch the convict",
+              "Miss Havisham",
+              "Uncle Pumblechook",
+              "Mr. Jaggers"
             ],
-            "correctIndex": 3,
-            "explanation": "Magwitch endured decades of harsh labor in Australia, sending all his earnings to Mr. Jaggers for Pip.",
-            "visualClueEmoji": "🐑",
+            "correctIndex": 0,
+            "textEvidence": "Look at me, Pip! he cried. I am the hunted prisoner you fed on the cold marsh with a pork pie and Joe's file!",
+            "explanation": "From the text: Magwitch revealed, 'I am the hunted prisoner you fed on the cold marsh with a pork pie and Joe's file!'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -3288,7 +3303,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Night"
             ],
             "correctIndex": 0,
-            "explanation": "In this chapter, \"Tempestuous\" means characterized by violent, stormy, and wild wind and rain.",
+            "explanation": "In this chapter, \'Tempestuous\' means characterized by violent, stormy, and wild wind and rain.",
             "visualClueEmoji": "🌪️",
             "points": 60
           }
@@ -3486,16 +3501,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-78-8-comp",
-            "question": "What profound moral lesson did Pip finally learn after his journey of great expectations?",
+            "question": "Who came to nurse Pip back to health when he fell ill?",
             "options": [
-              "It is always best to stay away from rivers on foggy mornings",
-              "True greatness and nobility come from an honest, loving heart, not money or fancy clothes",
-              "Only people who own big mansions in London can be happy",
-              "A blacksmith should never learn how to read or write"
+              "Joe Gargery",
+              "Estella",
+              "Uncle Pumblechook",
+              "Mr. Jaggers"
             ],
-            "correctIndex": 1,
-            "explanation": "Pip realized that Joe Gargery's humble, loyal love was far more noble than superficial wealth.",
-            "visualClueEmoji": "💖",
+            "correctIndex": 0,
+            "textEvidence": "When I opened my eyes, dear Joe Gargery was sitting by my bedside, nursing me back to health.",
+            "explanation": "From the text: 'When I opened my eyes, dear Joe Gargery was sitting by my bedside, nursing me back to health.'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -3508,7 +3524,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Magwitch"
             ],
             "correctIndex": 2,
-            "explanation": "In this chapter, \"Devotion\" means deep, steadfast loyalty, dedication, and affectionate love.",
+            "explanation": "In this chapter, \'Devotion\' means deep, steadfast loyalty, dedication, and affectionate love.",
             "visualClueEmoji": "💖",
             "points": 60
           }
@@ -3705,16 +3721,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-9plus-1-comp",
-            "question": "What two critical items did the escaped convict command Pip to bring to him on the marsh?",
+            "question": "What did the man on the marsh tell Pip to bring him?",
             "options": [
-              "A pair of leather boots and a warm woollen overcoat",
-              "A blacksmith's file to cut his chains and some savoury food",
-              "A silver watch and a bottle of writing ink",
-              "A wooden rowboat and a brass compass"
+              "A blacksmith's file and some food",
+              "A warm coat and boots",
+              "A rowboat and compass",
+              "A lantern and silver watch"
             ],
-            "correctIndex": 1,
-            "explanation": "Magwitch desperately needed a blacksmith's file to cut off his iron fetters and food to stay alive.",
-            "visualClueEmoji": "⛓️",
+            "correctIndex": 0,
+            "textEvidence": "He told me that if I did not bring him a blacksmith's file to cut his chains and some food by morning, a fierce companion would catch me.",
+            "explanation": "From the text: 'He told me that if I did not bring him a blacksmith's file to cut his chains and some food by morning...'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -3727,7 +3744,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Visits"
             ],
             "correctIndex": 2,
-            "explanation": "In this chapter, \"Terrified\" means overcome with extreme, trembling fear.",
+            "explanation": "In this chapter, \'Terrified\' means overcome with extreme, trembling fear.",
             "visualClueEmoji": "😨",
             "points": 60
           }
@@ -3922,16 +3939,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-9plus-2-comp",
-            "question": "Which two letters did kind blacksmith Joe proudly identify on Pip's writing slate?",
+            "question": "Which two letters could Joe Gargery read on the slate?",
             "options": [
-              "The letters 'A' and 'B' because they were at the front of the book",
-              "The letters 'P' and 'I' because they spelled Pip",
-              "The letters 'J' and 'O' because they spelled his name",
-              "The letters 'X' and 'Z' because they looked like crossed swords"
+              "The letters 'J' and 'O'",
+              "The letters 'A' and 'B'",
+              "The letters 'P' and 'I'",
+              "The letters 'X' and 'Y'"
             ],
-            "correctIndex": 2,
-            "explanation": "Joe proudly pointed out 'J' and 'O', saying they made up his own cheerful name.",
-            "visualClueEmoji": "📝",
+            "correctIndex": 0,
+            "textEvidence": "Joe knew the letter 'J' and the letter 'O' because they spelled his name!",
+            "explanation": "From the text: 'Joe knew the letter 'J' and the letter 'O' because they spelled his name!'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -3944,7 +3962,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Gentle"
             ],
             "correctIndex": 0,
-            "explanation": "In this chapter, \"Blacksmith\" means a craftsman who heats iron in a forge and hammers it into tools.",
+            "explanation": "In this chapter, \'Blacksmith\' means a craftsman who heats iron in a forge and hammers it into tools.",
             "visualClueEmoji": "👨‍🏭",
             "points": 60
           }
@@ -4140,16 +4158,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-9plus-3-comp",
-            "question": "What had happened to Miss Havisham's bridal gown after years of living in the dark?",
+            "question": "What had happened to the golden clock on Miss Havisham's mantelpiece?",
             "options": [
-              "It had faded and yellowed like withered autumn leaves",
-              "It had turned bright crimson red like a ruby",
-              "It was bleached sparkling clean every morning",
-              "It was dyed dark purple by the house servants"
+              "It was stopped at twenty minutes to nine",
+              "It was ticking very fast",
+              "It had melted in the fireplace",
+              "It was chiming every minute"
             ],
             "correctIndex": 0,
-            "explanation": "The text states that her silk dress had aged, faded, and yellowed over the decades.",
-            "visualClueEmoji": "👰",
+            "textEvidence": "Its hands were frozen at twenty minutes to nine. Miss Havisham's own watch... pointed to the exact same hour.",
+            "explanation": "From the text: The clock was not ticking and its hands were frozen at twenty minutes to nine.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -4162,7 +4181,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Cobweb"
             ],
             "correctIndex": 3,
-            "explanation": "In this chapter, \"Cobweb\" means a dusty, tangled web spun by a spider, often found in old houses.",
+            "explanation": "In this chapter, \'Cobweb\' means a dusty, tangled web spun by a spider, often found in old houses.",
             "visualClueEmoji": "🕸️",
             "points": 60
           }
@@ -4359,16 +4378,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-9plus-4-comp",
-            "question": "Why did Pip hide behind the stone wall in the courtyard and weep bitter tears?",
+            "question": "What game did Estella and Pip play with the cards?",
             "options": [
-              "Because he lost his favourite marble in the courtyard drain",
-              "Because Miss Havisham refused to let him taste the wedding cake",
-              "Because he was frightened of the guard dogs in the brewery",
-              "Because Estella's mocking words about his coarse hands and boots hurt his pride deeply"
+              "Beggar My Neighbour",
+              "Go Fish",
+              "Snap",
+              "Chess"
             ],
-            "correctIndex": 3,
-            "explanation": "Estella's cruel ridicule of his humble background deeply wounded Pip's self-esteem.",
-            "visualClueEmoji": "😢",
+            "correctIndex": 0,
+            "textEvidence": "We played a game called Beggar My Neighbour. I was so nervous that I kept dropping my cards on the dusty floor.",
+            "explanation": "From the text: Pip and Estella played a card game called 'Beggar My Neighbour'.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -4381,7 +4401,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Estella"
             ],
             "correctIndex": 1,
-            "explanation": "In this chapter, \"Haughty\" means arrogantly proud and looking down upon others as inferior.",
+            "explanation": "In this chapter, \'Haughty\' means arrogantly proud and looking down upon others as inferior.",
             "visualClueEmoji": "👑",
             "points": 60
           }
@@ -4578,16 +4598,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-9plus-5-comp",
-            "question": "What two strict conditions were placed upon Pip receiving his fortune?",
+            "question": "What was one of the conditions for Pip to receive his fortune?",
             "options": [
-              "He must live in Satis House and marry Estella within three years",
-              "He must wear black coats every day and learn how to fence",
-              "He must always keep the name Pip and never ask who his secret benefactor was",
-              "He must give half his yearly allowance to the village churchyard"
+              "He must always keep the name Pip",
+              "He must live in a castle",
+              "He must never wear boots",
+              "He must never eat bread"
             ],
-            "correctIndex": 2,
-            "explanation": "Mr. Jaggers explicitly instructed that Pip must keep his name and never seek the identity of his patron.",
-            "visualClueEmoji": "⚖️",
+            "correctIndex": 0,
+            "textEvidence": "There were only two strict conditions: I must always keep the name of Pip, and I must never ask who the secret benefactor was.",
+            "explanation": "From the text: Mr. Jaggers said, 'I must always keep the name of Pip...'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -4600,7 +4621,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Benefactor"
             ],
             "correctIndex": 3,
-            "explanation": "In this chapter, \"Benefactor\" means a generous person who gives financial help or gifts to support someone.",
+            "explanation": "In this chapter, \'Benefactor\' means a generous person who gives financial help or gifts to support someone.",
             "visualClueEmoji": "🎁",
             "points": 60
           }
@@ -4796,16 +4817,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-9plus-6-comp",
-            "question": "What affectionate musical nickname did Herbert Pocket give Pip in honour of his forge background?",
+            "question": "What nickname did Herbert Pocket give Pip?",
             "options": [
-              "Handel, after the composer of 'The Harmonious Blacksmith'",
-              "Mozart, because Pip played the parlour violin",
-              "Beethoven, after the stormy thunder music",
-              "Chopin, because of Pip's delicate handwriting"
+              "'Handel'",
+              "'Smithy'",
+              "'Captain'",
+              "'Scholar'"
             ],
             "correctIndex": 0,
-            "explanation": "Herbert nicknamed Pip 'Handel' because Handel composed 'The Harmonious Blacksmith'.",
-            "visualClueEmoji": "🎵",
+            "textEvidence": "Because of Joe's forge, he gave me the affectionate nickname 'Handel', after the famous composer who wrote 'The Harmonious Blacksmith'.",
+            "explanation": "From the text: Herbert gave Pip the nickname 'Handel' after the composer of 'The Harmonious Blacksmith'.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -4818,7 +4840,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Rooms"
             ],
             "correctIndex": 1,
-            "explanation": "In this chapter, \"Bustling\" means full of lively, energetic, and crowded activity.",
+            "explanation": "In this chapter, \'Bustling\' means full of lively, energetic, and crowded activity.",
             "visualClueEmoji": "🏙️",
             "points": 60
           }
@@ -5016,16 +5038,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-9plus-7-comp",
-            "question": "How did Magwitch earn the fortune that paid for Pip's gentlemanly education?",
+            "question": "Who was Pip's real secret benefactor who gave the money?",
             "options": [
-              "By discovering a pirate treasure chest in the English Channel",
-              "By winning horse races at the royal fair in Epsom",
-              "By inheriting an old silver mine in the Scottish Highlands",
-              "By working hard for twenty years as a successful sheep-farmer in Australia"
+              "Magwitch the convict",
+              "Miss Havisham",
+              "Uncle Pumblechook",
+              "Mr. Jaggers"
             ],
-            "correctIndex": 3,
-            "explanation": "Magwitch endured decades of harsh labor in Australia, sending all his earnings to Mr. Jaggers for Pip.",
-            "visualClueEmoji": "🐑",
+            "correctIndex": 0,
+            "textEvidence": "Look at me, Pip! he cried. I am the hunted prisoner you fed on the cold marsh with a pork pie and Joe's file!",
+            "explanation": "From the text: Magwitch revealed, 'I am the hunted prisoner you fed on the cold marsh with a pork pie and Joe's file!'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -5038,7 +5061,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Night"
             ],
             "correctIndex": 0,
-            "explanation": "In this chapter, \"Tempestuous\" means characterized by violent, stormy, and wild wind and rain.",
+            "explanation": "In this chapter, \'Tempestuous\' means characterized by violent, stormy, and wild wind and rain.",
             "visualClueEmoji": "🌪️",
             "points": 60
           }
@@ -5236,16 +5259,17 @@ export const EXPECTATIONS_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-great_expectations-9plus-8-comp",
-            "question": "What profound moral lesson did Pip finally learn after his journey of great expectations?",
+            "question": "Who came to nurse Pip back to health when he fell ill?",
             "options": [
-              "It is always best to stay away from rivers on foggy mornings",
-              "True greatness and nobility come from an honest, loving heart, not money or fancy clothes",
-              "Only people who own big mansions in London can be happy",
-              "A blacksmith should never learn how to read or write"
+              "Joe Gargery",
+              "Estella",
+              "Uncle Pumblechook",
+              "Mr. Jaggers"
             ],
-            "correctIndex": 1,
-            "explanation": "Pip realized that Joe Gargery's humble, loyal love was far more noble than superficial wealth.",
-            "visualClueEmoji": "💖",
+            "correctIndex": 0,
+            "textEvidence": "When I opened my eyes, dear Joe Gargery was sitting by my bedside, nursing me back to health.",
+            "explanation": "From the text: 'When I opened my eyes, dear Joe Gargery was sitting by my bedside, nursing me back to health.'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -5258,7 +5282,7 @@ export const EXPECTATIONS_BOOK: Book = {
               "Magwitch"
             ],
             "correctIndex": 2,
-            "explanation": "In this chapter, \"Devotion\" means deep, steadfast loyalty, dedication, and affectionate love.",
+            "explanation": "In this chapter, \'Devotion\' means deep, steadfast loyalty, dedication, and affectionate love.",
             "visualClueEmoji": "💖",
             "points": 60
           }

@@ -205,16 +205,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-56-1-comp",
-            "question": "Why did young Oliver walk up to the master in the workhouse hall to ask for more food?",
+            "question": "Why did Oliver walk up to the master to ask for more gruel?",
             "options": [
-              "Because he wanted to spill the pot of porridge onto the master's shiny black shoes",
-              "Because the boys cast lots due to intense hunger, and Oliver was chosen to ask for more gruel",
-              "Because Mr. Bumble ordered him to test if the copper ladle was boiling hot",
-              "Because he was greedy and had already eaten five roasted chickens"
+              "The boys cast lots and the choice fell on Oliver",
+              "He wanted to play a trick",
+              "The master called his name",
+              "He was told to ask for salt"
             ],
-            "correctIndex": 1,
-            "explanation": "The starving boys held a council and drew lots; fate chose Oliver to ask the master for extra gruel.",
-            "visualClueEmoji": "🥣",
+            "correctIndex": 0,
+            "textEvidence": "They cast lots with slips of paper, and the lot fell on little Oliver. He had to walk up to the master after supper and ask for more gruel.",
+            "explanation": "From the text: 'They cast lots with slips of paper, and the lot fell on little Oliver.'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -227,7 +228,7 @@ export const OLIVER_BOOK: Book = {
               "Parish"
             ],
             "correctIndex": 2,
-            "explanation": "In this chapter, \"Gruel\" means a thin, watery porridge boiled in water or milk.",
+            "explanation": "In this chapter, \'Gruel\' means a thin, watery porridge boiled in water or milk.",
             "visualClueEmoji": "🥣",
             "points": 60
           }
@@ -423,16 +424,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-56-2-comp",
-            "question": "Why did gentle Oliver knock down Noah Claypole in the undertaker shop?",
+            "question": "Where did Oliver sleep at Mr. Sowerberry's shop?",
             "options": [
-              "Because Noah stole Oliver's breakfast bowl of fresh strawberries and milk",
-              "Because Mr. Sowerberry asked them to practice a boxing match",
-              "Because Noah cruelly insulted and mocked Oliver's beloved deceased mother",
-              "Because Oliver wanted to take Noah's fine velvet coat"
+              "Under the shop counter among the coffins",
+              "In a soft feather bed upstairs",
+              "In the warm kitchen by the fire",
+              "In a barn on the hay"
             ],
-            "correctIndex": 2,
-            "explanation": "Oliver was gentle, but he fiercely defended his mother's memory when Noah insulted her.",
-            "visualClueEmoji": "🛡️",
+            "correctIndex": 0,
+            "textEvidence": "Oliver had to sleep on a thin mattress under the shop counter, surrounded by dark wooden boards and black cloth.",
+            "explanation": "From the text: 'Oliver had to sleep on a thin mattress under the shop counter, surrounded by dark wooden boards...'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -445,7 +447,7 @@ export const OLIVER_BOOK: Book = {
               "Undertaker"
             ],
             "correctIndex": 0,
-            "explanation": "In this chapter, \"Apprentice\" means a young person learning a trade from a skilled employer.",
+            "explanation": "In this chapter, \'Apprentice\' means a young person learning a trade from a skilled employer.",
             "visualClueEmoji": "📜",
             "points": 60
           }
@@ -641,16 +643,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-56-3-comp",
-            "question": "Who was Jack Dawkins, and what was his famous nickname on the London streets?",
+            "question": "What food did the Artful Dodger buy for Oliver at the eating house?",
             "options": [
-              "A clever street boy known across London as the Artful Dodger",
-              "A wealthy prince who was travelling disguised as a chimney sweep",
-              "A stern schoolmaster who taught Oliver Latin grammar",
-              "A palace guard who guarded the Tower of London"
+              "Bread, ham, and small beer",
+              "Chocolate and sweet cakes",
+              "Pork roast and apples",
+              "Rice and honey"
             ],
             "correctIndex": 0,
-            "explanation": "Jack Dawkins was known as the Artful Dodger because of his nimble tricks and street cleverness.",
-            "visualClueEmoji": "🎩",
+            "textEvidence": "The Dodger bought Oliver a feast of bread, ham, and small beer at an eating house.",
+            "explanation": "From the text: 'The Dodger bought Oliver a feast of bread, ham, and small beer at an eating house.'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -663,7 +666,7 @@ export const OLIVER_BOOK: Book = {
               "Peculiar"
             ],
             "correctIndex": 3,
-            "explanation": "In this chapter, \"Peculiar\" means strange, odd, or unusual in character or appearance.",
+            "explanation": "In this chapter, \'Peculiar\' means strange, odd, or unusual in character or appearance.",
             "visualClueEmoji": "🧐",
             "points": 60
           }
@@ -859,16 +862,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-56-4-comp",
-            "question": "What was the true, secret purpose behind Fagin's game with the silk handkerchiefs and watches?",
+            "question": "What was hidden inside the heavy box Fagin pulled from the floorboards?",
             "options": [
-              "To teach the boys how to properly clean and iron gentleman's clothing",
-              "To audition the boys for a musical play in London's West End theaters",
-              "To test if Oliver was strong enough to become a blacksmith like Joe Gargery",
-              "To train the boys in the art of picking pockets without being noticed by victims"
+              "Gold watches, diamond rings, and bracelets",
+              "Books and parchment paper",
+              "Wooden spoons and silver bowls",
+              "Old clothes and boots"
             ],
-            "correctIndex": 3,
-            "explanation": "Fagin used the game to train young boys to steal watches and silk handkerchiefs from wealthy pedestrians.",
-            "visualClueEmoji": "🖐️",
+            "correctIndex": 0,
+            "textEvidence": "The box was full of sparkling gold watches, diamond rings, and shiny bracelets.",
+            "explanation": "From the text: 'The box was full of sparkling gold watches, diamond rings, and shiny bracelets.'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -881,7 +885,7 @@ export const OLIVER_BOOK: Book = {
               "Fagin"
             ],
             "correctIndex": 1,
-            "explanation": "In this chapter, \"Curiosity\" means a strong desire to know or learn something.",
+            "explanation": "In this chapter, \'Curiosity\' means a strong desire to know or learn something.",
             "visualClueEmoji": "🤔",
             "points": 60
           }
@@ -1077,16 +1081,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-56-5-comp",
-            "question": "How did Mr. Brownlow treat Oliver after the confusion at the bookstall was cleared?",
+            "question": "Who shouted to the magistrate that Oliver did not steal the handkerchief?",
             "options": [
-              "He sent Oliver back to the Kent workhouse in leg irons",
-              "He demanded that Oliver pay him twenty gold sovereigns for the lost handkerchief",
-              "With gentle compassion, taking the feverish boy into his peaceful home to nurse him back to health",
-              "He forced Oliver to sweep all the chimneys on his street"
+              "The bookstall keeper who saw it all",
+              "The Artful Dodger",
+              "A police officer",
+              "Mr. Bumble"
             ],
-            "correctIndex": 2,
-            "explanation": "Mr. Brownlow saw Oliver's innocence and gentleness, taking him home in his carriage to nurse his fever.",
-            "visualClueEmoji": "💖",
+            "correctIndex": 0,
+            "textEvidence": "Just then, the bookstall keeper rushed in and shouted: Stop! I saw it all! It was another boy who stole the handkerchief!",
+            "explanation": "From the text: The bookstall keeper cried, 'Stop! I saw it all! It was another boy who stole the handkerchief!'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -1099,7 +1104,7 @@ export const OLIVER_BOOK: Book = {
               "Compassion"
             ],
             "correctIndex": 3,
-            "explanation": "In this chapter, \"Compassion\" means sympathetic pity and concern for the misfortunes of others.",
+            "explanation": "In this chapter, \'Compassion\' means sympathetic pity and concern for the misfortunes of others.",
             "visualClueEmoji": "💖",
             "points": 60
           }
@@ -1297,16 +1302,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-56-6-comp",
-            "question": "What important task did Mr. Brownlow entrust to Oliver to prove the boy's honesty?",
+            "question": "What did Mr. Brownlow give Oliver to return to the bookstall?",
             "options": [
-              "To return several valuable books and deliver a five-pound note to the Clerkenwell bookstall",
-              "To guard the strongbox of jewels in the library overnight",
-              "To travel across the ocean to America to buy tea",
-              "To sell newspapers at London Bridge station"
+              "Valuable books and a five-pound note",
+              "A gold pocket watch",
+              "A silver tea set",
+              "A box of leather gloves"
             ],
             "correctIndex": 0,
-            "explanation": "Mr. Brownlow trusted Oliver with valuable books and a five-pound note to settle his account at the bookstall.",
-            "visualClueEmoji": "💷",
+            "textEvidence": "Mr. Brownlow gave the boy some valuable books to return and a crisp five-pound note to pay the bookseller.",
+            "explanation": "From the text: Mr. Brownlow gave Oliver valuable books and a five-pound note to pay the bookseller.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -1319,7 +1325,7 @@ export const OLIVER_BOOK: Book = {
               "Peaceful"
             ],
             "correctIndex": 1,
-            "explanation": "In this chapter, \"Likeness\" means the fact or quality of being alike; a portrait or resemblance.",
+            "explanation": "In this chapter, \'Likeness\' means the fact or quality of being alike; a portrait or resemblance.",
             "visualClueEmoji": "🖼️",
             "points": 60
           }
@@ -1515,16 +1521,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-56-7-comp",
-            "question": "Why did brave Nancy secretly meet Mr. Brownlow and Rose Maylie on London Bridge at midnight?",
+            "question": "Where did Nancy secretly meet Mr. Brownlow at midnight?",
             "options": [
-              "To sell them a basket of stolen silver spoons from the kitchen",
-              "To ask Mr. Brownlow for a job as a ship captain on the Thames",
-              "To guide them to a hidden pirate treasure buried in the river",
-              "To protect Oliver from harm by revealing the secret conspiracy of Monks and Fagin"
+              "On London Bridge under a stone arch",
+              "Inside Tellson's Bank",
+              "In a churchyard in Dover",
+              "At a tea shop in the village"
             ],
-            "correctIndex": 3,
-            "explanation": "Nancy risked her own safety to reveal Monks' plot to ruin Oliver, ensuring the boy would be rescued.",
-            "visualClueEmoji": "🌉",
+            "correctIndex": 0,
+            "textEvidence": "At midnight, Nancy slipped away to London Bridge... Waiting under the stone archway were kind Mr. Brownlow and a sweet, beautiful lady named Rose Maylie.",
+            "explanation": "From the text: Nancy met Mr. Brownlow and Rose Maylie on London Bridge at midnight.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -1537,7 +1544,7 @@ export const OLIVER_BOOK: Book = {
               "Oliver"
             ],
             "correctIndex": 0,
-            "explanation": "In this chapter, \"Sacrifice\" means an act of giving up something valuable for the sake of something more important.",
+            "explanation": "In this chapter, \'Sacrifice\' means an act of giving up something valuable for the sake of something more important.",
             "visualClueEmoji": "🕊️",
             "points": 60
           }
@@ -1735,16 +1742,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-56-8-comp",
-            "question": "How does the heartwarming conclusion of Oliver Twist bring peace and happiness to the young boy?",
+            "question": "What did kind Mr. Brownlow do for Oliver at the end of the story?",
             "options": [
-              "Oliver buys the workhouse and turns it into a giant candy factory with chocolate rivers",
-              "Mr. Brownlow legally adopts Oliver, his true name and inheritance are restored, and they live in a peaceful country home",
-              "Oliver runs away to sea and becomes a pirate captain on the Spanish Main",
-              "Noah Claypole becomes the town mayor and gives Oliver a golden chariot"
+              "He legally adopted Oliver as his own beloved son",
+              "He sent Oliver to sea on a ship",
+              "He made Oliver an apprentice blacksmith",
+              "He sent Oliver back to the workhouse"
             ],
-            "correctIndex": 1,
-            "explanation": "Oliver is adopted by kind Mr. Brownlow, discovering his noble parentage, receiving his inheritance, and living in love and peace.",
-            "visualClueEmoji": "🏡",
+            "correctIndex": 0,
+            "textEvidence": "Mr. Brownlow legally adopted Oliver as his own beloved son! They moved to a beautiful country cottage...",
+            "explanation": "From the text: 'Mr. Brownlow legally adopted Oliver as his own beloved son!'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -1757,7 +1765,7 @@ export const OLIVER_BOOK: Book = {
               "Forced"
             ],
             "correctIndex": 2,
-            "explanation": "In this chapter, \"Inheritance\" means property, money, or a title received upon someone's death.",
+            "explanation": "In this chapter, \'Inheritance\' means property, money, or a title received upon someone's death.",
             "visualClueEmoji": "📜",
             "points": 60
           }
@@ -1954,16 +1962,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-78-1-comp",
-            "question": "Why did young Oliver walk up to the master in the workhouse hall to ask for more food?",
+            "question": "Why did Oliver walk up to the master to ask for more gruel?",
             "options": [
-              "Because he wanted to spill the pot of porridge onto the master's shiny black shoes",
-              "Because the boys cast lots due to intense hunger, and Oliver was chosen to ask for more gruel",
-              "Because Mr. Bumble ordered him to test if the copper ladle was boiling hot",
-              "Because he was greedy and had already eaten five roasted chickens"
+              "The boys cast lots and the choice fell on Oliver",
+              "He wanted to play a trick",
+              "The master called his name",
+              "He was told to ask for salt"
             ],
-            "correctIndex": 1,
-            "explanation": "The starving boys held a council and drew lots; fate chose Oliver to ask the master for extra gruel.",
-            "visualClueEmoji": "🥣",
+            "correctIndex": 0,
+            "textEvidence": "They cast lots with slips of paper, and the lot fell on little Oliver. He had to walk up to the master after supper and ask for more gruel.",
+            "explanation": "From the text: 'They cast lots with slips of paper, and the lot fell on little Oliver.'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -1976,7 +1985,7 @@ export const OLIVER_BOOK: Book = {
               "Parish"
             ],
             "correctIndex": 2,
-            "explanation": "In this chapter, \"Gruel\" means a thin, watery porridge boiled in water or milk.",
+            "explanation": "In this chapter, \'Gruel\' means a thin, watery porridge boiled in water or milk.",
             "visualClueEmoji": "🥣",
             "points": 60
           }
@@ -2172,16 +2181,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-78-2-comp",
-            "question": "Why did gentle Oliver knock down Noah Claypole in the undertaker shop?",
+            "question": "Where did Oliver sleep at Mr. Sowerberry's shop?",
             "options": [
-              "Because Noah stole Oliver's breakfast bowl of fresh strawberries and milk",
-              "Because Mr. Sowerberry asked them to practice a boxing match",
-              "Because Noah cruelly insulted and mocked Oliver's beloved deceased mother",
-              "Because Oliver wanted to take Noah's fine velvet coat"
+              "Under the shop counter among the coffins",
+              "In a soft feather bed upstairs",
+              "In the warm kitchen by the fire",
+              "In a barn on the hay"
             ],
-            "correctIndex": 2,
-            "explanation": "Oliver was gentle, but he fiercely defended his mother's memory when Noah insulted her.",
-            "visualClueEmoji": "🛡️",
+            "correctIndex": 0,
+            "textEvidence": "Oliver had to sleep on a thin mattress under the shop counter, surrounded by dark wooden boards and black cloth.",
+            "explanation": "From the text: 'Oliver had to sleep on a thin mattress under the shop counter, surrounded by dark wooden boards...'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -2194,7 +2204,7 @@ export const OLIVER_BOOK: Book = {
               "Undertaker"
             ],
             "correctIndex": 0,
-            "explanation": "In this chapter, \"Apprentice\" means a young person learning a trade from a skilled employer.",
+            "explanation": "In this chapter, \'Apprentice\' means a young person learning a trade from a skilled employer.",
             "visualClueEmoji": "📜",
             "points": 60
           }
@@ -2390,16 +2400,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-78-3-comp",
-            "question": "Who was Jack Dawkins, and what was his famous nickname on the London streets?",
+            "question": "What food did the Artful Dodger buy for Oliver at the eating house?",
             "options": [
-              "A clever street boy known across London as the Artful Dodger",
-              "A wealthy prince who was travelling disguised as a chimney sweep",
-              "A stern schoolmaster who taught Oliver Latin grammar",
-              "A palace guard who guarded the Tower of London"
+              "Bread, ham, and small beer",
+              "Chocolate and sweet cakes",
+              "Pork roast and apples",
+              "Rice and honey"
             ],
             "correctIndex": 0,
-            "explanation": "Jack Dawkins was known as the Artful Dodger because of his nimble tricks and street cleverness.",
-            "visualClueEmoji": "🎩",
+            "textEvidence": "The Dodger bought Oliver a feast of bread, ham, and small beer at an eating house.",
+            "explanation": "From the text: 'The Dodger bought Oliver a feast of bread, ham, and small beer at an eating house.'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -2412,7 +2423,7 @@ export const OLIVER_BOOK: Book = {
               "Peculiar"
             ],
             "correctIndex": 3,
-            "explanation": "In this chapter, \"Peculiar\" means strange, odd, or unusual in character or appearance.",
+            "explanation": "In this chapter, \'Peculiar\' means strange, odd, or unusual in character or appearance.",
             "visualClueEmoji": "🧐",
             "points": 60
           }
@@ -2608,16 +2619,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-78-4-comp",
-            "question": "What was the true, secret purpose behind Fagin's game with the silk handkerchiefs and watches?",
+            "question": "What was hidden inside the heavy box Fagin pulled from the floorboards?",
             "options": [
-              "To teach the boys how to properly clean and iron gentleman's clothing",
-              "To audition the boys for a musical play in London's West End theaters",
-              "To test if Oliver was strong enough to become a blacksmith like Joe Gargery",
-              "To train the boys in the art of picking pockets without being noticed by victims"
+              "Gold watches, diamond rings, and bracelets",
+              "Books and parchment paper",
+              "Wooden spoons and silver bowls",
+              "Old clothes and boots"
             ],
-            "correctIndex": 3,
-            "explanation": "Fagin used the game to train young boys to steal watches and silk handkerchiefs from wealthy pedestrians.",
-            "visualClueEmoji": "🖐️",
+            "correctIndex": 0,
+            "textEvidence": "The box was full of sparkling gold watches, diamond rings, and shiny bracelets.",
+            "explanation": "From the text: 'The box was full of sparkling gold watches, diamond rings, and shiny bracelets.'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -2630,7 +2642,7 @@ export const OLIVER_BOOK: Book = {
               "Fagin"
             ],
             "correctIndex": 1,
-            "explanation": "In this chapter, \"Curiosity\" means a strong desire to know or learn something.",
+            "explanation": "In this chapter, \'Curiosity\' means a strong desire to know or learn something.",
             "visualClueEmoji": "🤔",
             "points": 60
           }
@@ -2826,16 +2838,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-78-5-comp",
-            "question": "How did Mr. Brownlow treat Oliver after the confusion at the bookstall was cleared?",
+            "question": "Who shouted to the magistrate that Oliver did not steal the handkerchief?",
             "options": [
-              "He sent Oliver back to the Kent workhouse in leg irons",
-              "He demanded that Oliver pay him twenty gold sovereigns for the lost handkerchief",
-              "With gentle compassion, taking the feverish boy into his peaceful home to nurse him back to health",
-              "He forced Oliver to sweep all the chimneys on his street"
+              "The bookstall keeper who saw it all",
+              "The Artful Dodger",
+              "A police officer",
+              "Mr. Bumble"
             ],
-            "correctIndex": 2,
-            "explanation": "Mr. Brownlow saw Oliver's innocence and gentleness, taking him home in his carriage to nurse his fever.",
-            "visualClueEmoji": "💖",
+            "correctIndex": 0,
+            "textEvidence": "Just then, the bookstall keeper rushed in and shouted: Stop! I saw it all! It was another boy who stole the handkerchief!",
+            "explanation": "From the text: The bookstall keeper cried, 'Stop! I saw it all! It was another boy who stole the handkerchief!'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -2848,7 +2861,7 @@ export const OLIVER_BOOK: Book = {
               "Compassion"
             ],
             "correctIndex": 3,
-            "explanation": "In this chapter, \"Compassion\" means sympathetic pity and concern for the misfortunes of others.",
+            "explanation": "In this chapter, \'Compassion\' means sympathetic pity and concern for the misfortunes of others.",
             "visualClueEmoji": "💖",
             "points": 60
           }
@@ -3046,16 +3059,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-78-6-comp",
-            "question": "What important task did Mr. Brownlow entrust to Oliver to prove the boy's honesty?",
+            "question": "What did Mr. Brownlow give Oliver to return to the bookstall?",
             "options": [
-              "To return several valuable books and deliver a five-pound note to the Clerkenwell bookstall",
-              "To guard the strongbox of jewels in the library overnight",
-              "To travel across the ocean to America to buy tea",
-              "To sell newspapers at London Bridge station"
+              "Valuable books and a five-pound note",
+              "A gold pocket watch",
+              "A silver tea set",
+              "A box of leather gloves"
             ],
             "correctIndex": 0,
-            "explanation": "Mr. Brownlow trusted Oliver with valuable books and a five-pound note to settle his account at the bookstall.",
-            "visualClueEmoji": "💷",
+            "textEvidence": "Mr. Brownlow gave the boy some valuable books to return and a crisp five-pound note to pay the bookseller.",
+            "explanation": "From the text: Mr. Brownlow gave Oliver valuable books and a five-pound note to pay the bookseller.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -3068,7 +3082,7 @@ export const OLIVER_BOOK: Book = {
               "Peaceful"
             ],
             "correctIndex": 1,
-            "explanation": "In this chapter, \"Likeness\" means the fact or quality of being alike; a portrait or resemblance.",
+            "explanation": "In this chapter, \'Likeness\' means the fact or quality of being alike; a portrait or resemblance.",
             "visualClueEmoji": "🖼️",
             "points": 60
           }
@@ -3264,16 +3278,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-78-7-comp",
-            "question": "Why did brave Nancy secretly meet Mr. Brownlow and Rose Maylie on London Bridge at midnight?",
+            "question": "Where did Nancy secretly meet Mr. Brownlow at midnight?",
             "options": [
-              "To sell them a basket of stolen silver spoons from the kitchen",
-              "To ask Mr. Brownlow for a job as a ship captain on the Thames",
-              "To guide them to a hidden pirate treasure buried in the river",
-              "To protect Oliver from harm by revealing the secret conspiracy of Monks and Fagin"
+              "On London Bridge under a stone arch",
+              "Inside Tellson's Bank",
+              "In a churchyard in Dover",
+              "At a tea shop in the village"
             ],
-            "correctIndex": 3,
-            "explanation": "Nancy risked her own safety to reveal Monks' plot to ruin Oliver, ensuring the boy would be rescued.",
-            "visualClueEmoji": "🌉",
+            "correctIndex": 0,
+            "textEvidence": "At midnight, Nancy slipped away to London Bridge... Waiting under the stone archway were kind Mr. Brownlow and a sweet, beautiful lady named Rose Maylie.",
+            "explanation": "From the text: Nancy met Mr. Brownlow and Rose Maylie on London Bridge at midnight.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -3286,7 +3301,7 @@ export const OLIVER_BOOK: Book = {
               "Oliver"
             ],
             "correctIndex": 0,
-            "explanation": "In this chapter, \"Sacrifice\" means an act of giving up something valuable for the sake of something more important.",
+            "explanation": "In this chapter, \'Sacrifice\' means an act of giving up something valuable for the sake of something more important.",
             "visualClueEmoji": "🕊️",
             "points": 60
           }
@@ -3484,16 +3499,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-78-8-comp",
-            "question": "How does the heartwarming conclusion of Oliver Twist bring peace and happiness to the young boy?",
+            "question": "What did kind Mr. Brownlow do for Oliver at the end of the story?",
             "options": [
-              "Oliver buys the workhouse and turns it into a giant candy factory with chocolate rivers",
-              "Mr. Brownlow legally adopts Oliver, his true name and inheritance are restored, and they live in a peaceful country home",
-              "Oliver runs away to sea and becomes a pirate captain on the Spanish Main",
-              "Noah Claypole becomes the town mayor and gives Oliver a golden chariot"
+              "He legally adopted Oliver as his own beloved son",
+              "He sent Oliver to sea on a ship",
+              "He made Oliver an apprentice blacksmith",
+              "He sent Oliver back to the workhouse"
             ],
-            "correctIndex": 1,
-            "explanation": "Oliver is adopted by kind Mr. Brownlow, discovering his noble parentage, receiving his inheritance, and living in love and peace.",
-            "visualClueEmoji": "🏡",
+            "correctIndex": 0,
+            "textEvidence": "Mr. Brownlow legally adopted Oliver as his own beloved son! They moved to a beautiful country cottage...",
+            "explanation": "From the text: 'Mr. Brownlow legally adopted Oliver as his own beloved son!'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -3506,7 +3522,7 @@ export const OLIVER_BOOK: Book = {
               "Forced"
             ],
             "correctIndex": 2,
-            "explanation": "In this chapter, \"Inheritance\" means property, money, or a title received upon someone's death.",
+            "explanation": "In this chapter, \'Inheritance\' means property, money, or a title received upon someone's death.",
             "visualClueEmoji": "📜",
             "points": 60
           }
@@ -3703,16 +3719,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-9plus-1-comp",
-            "question": "Why did young Oliver walk up to the master in the workhouse hall to ask for more food?",
+            "question": "Why did Oliver walk up to the master to ask for more gruel?",
             "options": [
-              "Because he wanted to spill the pot of porridge onto the master's shiny black shoes",
-              "Because the boys cast lots due to intense hunger, and Oliver was chosen to ask for more gruel",
-              "Because Mr. Bumble ordered him to test if the copper ladle was boiling hot",
-              "Because he was greedy and had already eaten five roasted chickens"
+              "The boys cast lots and the choice fell on Oliver",
+              "He wanted to play a trick",
+              "The master called his name",
+              "He was told to ask for salt"
             ],
-            "correctIndex": 1,
-            "explanation": "The starving boys held a council and drew lots; fate chose Oliver to ask the master for extra gruel.",
-            "visualClueEmoji": "🥣",
+            "correctIndex": 0,
+            "textEvidence": "They cast lots with slips of paper, and the lot fell on little Oliver. He had to walk up to the master after supper and ask for more gruel.",
+            "explanation": "From the text: 'They cast lots with slips of paper, and the lot fell on little Oliver.'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -3725,7 +3742,7 @@ export const OLIVER_BOOK: Book = {
               "Parish"
             ],
             "correctIndex": 2,
-            "explanation": "In this chapter, \"Gruel\" means a thin, watery porridge boiled in water or milk.",
+            "explanation": "In this chapter, \'Gruel\' means a thin, watery porridge boiled in water or milk.",
             "visualClueEmoji": "🥣",
             "points": 60
           }
@@ -3921,16 +3938,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-9plus-2-comp",
-            "question": "Why did gentle Oliver knock down Noah Claypole in the undertaker shop?",
+            "question": "Where did Oliver sleep at Mr. Sowerberry's shop?",
             "options": [
-              "Because Noah stole Oliver's breakfast bowl of fresh strawberries and milk",
-              "Because Mr. Sowerberry asked them to practice a boxing match",
-              "Because Noah cruelly insulted and mocked Oliver's beloved deceased mother",
-              "Because Oliver wanted to take Noah's fine velvet coat"
+              "Under the shop counter among the coffins",
+              "In a soft feather bed upstairs",
+              "In the warm kitchen by the fire",
+              "In a barn on the hay"
             ],
-            "correctIndex": 2,
-            "explanation": "Oliver was gentle, but he fiercely defended his mother's memory when Noah insulted her.",
-            "visualClueEmoji": "🛡️",
+            "correctIndex": 0,
+            "textEvidence": "Oliver had to sleep on a thin mattress under the shop counter, surrounded by dark wooden boards and black cloth.",
+            "explanation": "From the text: 'Oliver had to sleep on a thin mattress under the shop counter, surrounded by dark wooden boards...'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -3943,7 +3961,7 @@ export const OLIVER_BOOK: Book = {
               "Undertaker"
             ],
             "correctIndex": 0,
-            "explanation": "In this chapter, \"Apprentice\" means a young person learning a trade from a skilled employer.",
+            "explanation": "In this chapter, \'Apprentice\' means a young person learning a trade from a skilled employer.",
             "visualClueEmoji": "📜",
             "points": 60
           }
@@ -4139,16 +4157,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-9plus-3-comp",
-            "question": "Who was Jack Dawkins, and what was his famous nickname on the London streets?",
+            "question": "What food did the Artful Dodger buy for Oliver at the eating house?",
             "options": [
-              "A clever street boy known across London as the Artful Dodger",
-              "A wealthy prince who was travelling disguised as a chimney sweep",
-              "A stern schoolmaster who taught Oliver Latin grammar",
-              "A palace guard who guarded the Tower of London"
+              "Bread, ham, and small beer",
+              "Chocolate and sweet cakes",
+              "Pork roast and apples",
+              "Rice and honey"
             ],
             "correctIndex": 0,
-            "explanation": "Jack Dawkins was known as the Artful Dodger because of his nimble tricks and street cleverness.",
-            "visualClueEmoji": "🎩",
+            "textEvidence": "The Dodger bought Oliver a feast of bread, ham, and small beer at an eating house.",
+            "explanation": "From the text: 'The Dodger bought Oliver a feast of bread, ham, and small beer at an eating house.'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -4161,7 +4180,7 @@ export const OLIVER_BOOK: Book = {
               "Peculiar"
             ],
             "correctIndex": 3,
-            "explanation": "In this chapter, \"Peculiar\" means strange, odd, or unusual in character or appearance.",
+            "explanation": "In this chapter, \'Peculiar\' means strange, odd, or unusual in character or appearance.",
             "visualClueEmoji": "🧐",
             "points": 60
           }
@@ -4357,16 +4376,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-9plus-4-comp",
-            "question": "What was the true, secret purpose behind Fagin's game with the silk handkerchiefs and watches?",
+            "question": "What was hidden inside the heavy box Fagin pulled from the floorboards?",
             "options": [
-              "To teach the boys how to properly clean and iron gentleman's clothing",
-              "To audition the boys for a musical play in London's West End theaters",
-              "To test if Oliver was strong enough to become a blacksmith like Joe Gargery",
-              "To train the boys in the art of picking pockets without being noticed by victims"
+              "Gold watches, diamond rings, and bracelets",
+              "Books and parchment paper",
+              "Wooden spoons and silver bowls",
+              "Old clothes and boots"
             ],
-            "correctIndex": 3,
-            "explanation": "Fagin used the game to train young boys to steal watches and silk handkerchiefs from wealthy pedestrians.",
-            "visualClueEmoji": "🖐️",
+            "correctIndex": 0,
+            "textEvidence": "The box was full of sparkling gold watches, diamond rings, and shiny bracelets.",
+            "explanation": "From the text: 'The box was full of sparkling gold watches, diamond rings, and shiny bracelets.'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -4379,7 +4399,7 @@ export const OLIVER_BOOK: Book = {
               "Fagin"
             ],
             "correctIndex": 1,
-            "explanation": "In this chapter, \"Curiosity\" means a strong desire to know or learn something.",
+            "explanation": "In this chapter, \'Curiosity\' means a strong desire to know or learn something.",
             "visualClueEmoji": "🤔",
             "points": 60
           }
@@ -4575,16 +4595,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-9plus-5-comp",
-            "question": "How did Mr. Brownlow treat Oliver after the confusion at the bookstall was cleared?",
+            "question": "Who shouted to the magistrate that Oliver did not steal the handkerchief?",
             "options": [
-              "He sent Oliver back to the Kent workhouse in leg irons",
-              "He demanded that Oliver pay him twenty gold sovereigns for the lost handkerchief",
-              "With gentle compassion, taking the feverish boy into his peaceful home to nurse him back to health",
-              "He forced Oliver to sweep all the chimneys on his street"
+              "The bookstall keeper who saw it all",
+              "The Artful Dodger",
+              "A police officer",
+              "Mr. Bumble"
             ],
-            "correctIndex": 2,
-            "explanation": "Mr. Brownlow saw Oliver's innocence and gentleness, taking him home in his carriage to nurse his fever.",
-            "visualClueEmoji": "💖",
+            "correctIndex": 0,
+            "textEvidence": "Just then, the bookstall keeper rushed in and shouted: Stop! I saw it all! It was another boy who stole the handkerchief!",
+            "explanation": "From the text: The bookstall keeper cried, 'Stop! I saw it all! It was another boy who stole the handkerchief!'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -4597,7 +4618,7 @@ export const OLIVER_BOOK: Book = {
               "Compassion"
             ],
             "correctIndex": 3,
-            "explanation": "In this chapter, \"Compassion\" means sympathetic pity and concern for the misfortunes of others.",
+            "explanation": "In this chapter, \'Compassion\' means sympathetic pity and concern for the misfortunes of others.",
             "visualClueEmoji": "💖",
             "points": 60
           }
@@ -4795,16 +4816,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-9plus-6-comp",
-            "question": "What important task did Mr. Brownlow entrust to Oliver to prove the boy's honesty?",
+            "question": "What did Mr. Brownlow give Oliver to return to the bookstall?",
             "options": [
-              "To return several valuable books and deliver a five-pound note to the Clerkenwell bookstall",
-              "To guard the strongbox of jewels in the library overnight",
-              "To travel across the ocean to America to buy tea",
-              "To sell newspapers at London Bridge station"
+              "Valuable books and a five-pound note",
+              "A gold pocket watch",
+              "A silver tea set",
+              "A box of leather gloves"
             ],
             "correctIndex": 0,
-            "explanation": "Mr. Brownlow trusted Oliver with valuable books and a five-pound note to settle his account at the bookstall.",
-            "visualClueEmoji": "💷",
+            "textEvidence": "Mr. Brownlow gave the boy some valuable books to return and a crisp five-pound note to pay the bookseller.",
+            "explanation": "From the text: Mr. Brownlow gave Oliver valuable books and a five-pound note to pay the bookseller.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -4817,7 +4839,7 @@ export const OLIVER_BOOK: Book = {
               "Peaceful"
             ],
             "correctIndex": 1,
-            "explanation": "In this chapter, \"Likeness\" means the fact or quality of being alike; a portrait or resemblance.",
+            "explanation": "In this chapter, \'Likeness\' means the fact or quality of being alike; a portrait or resemblance.",
             "visualClueEmoji": "🖼️",
             "points": 60
           }
@@ -5013,16 +5035,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-9plus-7-comp",
-            "question": "Why did brave Nancy secretly meet Mr. Brownlow and Rose Maylie on London Bridge at midnight?",
+            "question": "Where did Nancy secretly meet Mr. Brownlow at midnight?",
             "options": [
-              "To sell them a basket of stolen silver spoons from the kitchen",
-              "To ask Mr. Brownlow for a job as a ship captain on the Thames",
-              "To guide them to a hidden pirate treasure buried in the river",
-              "To protect Oliver from harm by revealing the secret conspiracy of Monks and Fagin"
+              "On London Bridge under a stone arch",
+              "Inside Tellson's Bank",
+              "In a churchyard in Dover",
+              "At a tea shop in the village"
             ],
-            "correctIndex": 3,
-            "explanation": "Nancy risked her own safety to reveal Monks' plot to ruin Oliver, ensuring the boy would be rescued.",
-            "visualClueEmoji": "🌉",
+            "correctIndex": 0,
+            "textEvidence": "At midnight, Nancy slipped away to London Bridge... Waiting under the stone archway were kind Mr. Brownlow and a sweet, beautiful lady named Rose Maylie.",
+            "explanation": "From the text: Nancy met Mr. Brownlow and Rose Maylie on London Bridge at midnight.",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -5035,7 +5058,7 @@ export const OLIVER_BOOK: Book = {
               "Oliver"
             ],
             "correctIndex": 0,
-            "explanation": "In this chapter, \"Sacrifice\" means an act of giving up something valuable for the sake of something more important.",
+            "explanation": "In this chapter, \'Sacrifice\' means an act of giving up something valuable for the sake of something more important.",
             "visualClueEmoji": "🕊️",
             "points": 60
           }
@@ -5233,16 +5256,17 @@ export const OLIVER_BOOK: Book = {
         "quizQuestions": [
           {
             "id": "q-oliver_twist-9plus-8-comp",
-            "question": "How does the heartwarming conclusion of Oliver Twist bring peace and happiness to the young boy?",
+            "question": "What did kind Mr. Brownlow do for Oliver at the end of the story?",
             "options": [
-              "Oliver buys the workhouse and turns it into a giant candy factory with chocolate rivers",
-              "Mr. Brownlow legally adopts Oliver, his true name and inheritance are restored, and they live in a peaceful country home",
-              "Oliver runs away to sea and becomes a pirate captain on the Spanish Main",
-              "Noah Claypole becomes the town mayor and gives Oliver a golden chariot"
+              "He legally adopted Oliver as his own beloved son",
+              "He sent Oliver to sea on a ship",
+              "He made Oliver an apprentice blacksmith",
+              "He sent Oliver back to the workhouse"
             ],
-            "correctIndex": 1,
-            "explanation": "Oliver is adopted by kind Mr. Brownlow, discovering his noble parentage, receiving his inheritance, and living in love and peace.",
-            "visualClueEmoji": "🏡",
+            "correctIndex": 0,
+            "textEvidence": "Mr. Brownlow legally adopted Oliver as his own beloved son! They moved to a beautiful country cottage...",
+            "explanation": "From the text: 'Mr. Brownlow legally adopted Oliver as his own beloved son!'",
+            "visualClueEmoji": "📖",
             "points": 60
           },
           {
@@ -5255,7 +5279,7 @@ export const OLIVER_BOOK: Book = {
               "Forced"
             ],
             "correctIndex": 2,
-            "explanation": "In this chapter, \"Inheritance\" means property, money, or a title received upon someone's death.",
+            "explanation": "In this chapter, \'Inheritance\' means property, money, or a title received upon someone's death.",
             "visualClueEmoji": "📜",
             "points": 60
           }

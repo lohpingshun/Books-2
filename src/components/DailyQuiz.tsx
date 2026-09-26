@@ -319,10 +319,14 @@ export const DailyQuiz: React.FC<DailyQuizProps> = ({
               animate={{ opacity: 1, y: 0 }}
               className="bg-amber-100 border-2 border-amber-300 text-amber-950 p-3 rounded-2xl text-xs font-bold flex items-start gap-2"
             >
-              <span className="text-base">💡</span>
+              <span className="text-base">📖</span>
               <div>
-                <span className="font-black text-[11px] uppercase tracking-wider text-amber-800">Critical Insight Clue:</span>
-                <p className="mt-0.5 font-serif italic">{currentQ.explanation.split(".")[0]}. Consider character motivations and underlying themes!</p>
+                <span className="font-black text-[11px] uppercase tracking-wider text-amber-800">Clue From The Text:</span>
+                <p className="mt-0.5 font-serif italic text-amber-900">
+                  {currentQ.textEvidence
+                    ? `"${currentQ.textEvidence}"`
+                    : currentQ.explanation}
+                </p>
               </div>
             </motion.div>
           )}
@@ -336,8 +340,8 @@ export const DailyQuiz: React.FC<DailyQuizProps> = ({
             )}
             <div className="flex-1">
               <div className="flex items-center justify-between">
-                <span className="text-[10px] font-black text-[#E74C3C] uppercase tracking-wider">
-                  Mastery Reading Challenge • Difficulty: Hard
+                <span className="inline-flex items-center gap-1 text-[10px] font-black text-emerald-800 bg-emerald-100 border border-emerald-300 px-2 py-0.5 rounded-full uppercase tracking-wider">
+                  📖 Answer is in the text
                 </span>
                 <span className="text-[11px] font-black text-[#2D1B36] bg-[#FFCC33] px-2 py-0.5 rounded-full">
                   +{currentQ.points + (quizMode === "hardcore" ? 25 : 0)} KP
@@ -420,12 +424,12 @@ export const DailyQuiz: React.FC<DailyQuizProps> = ({
                     {selectedOption === currentQ.correctIndex ? (
                       <>
                         <Sparkles className="w-4 h-4 text-[#2D1B36]" />
-                        <span>Masterfully Answered! +{currentQ.points + (quizMode === "hardcore" ? 25 : 0)} KoKo Points!</span>
+                        <span>Great Job! +{currentQ.points + (quizMode === "hardcore" ? 25 : 0)} KoKo Points!</span>
                       </>
                     ) : (
                       <>
                         <Award className="w-4 h-4 text-[#E74C3C]" />
-                        <span>Analytical Review: Learn from the nuance below:</span>
+                        <span>Here is what the text says:</span>
                       </>
                     )}
                   </div>
@@ -435,8 +439,16 @@ export const DailyQuiz: React.FC<DailyQuizProps> = ({
                     </span>
                   )}
                 </div>
+                {currentQ.textEvidence && (
+                  <div className="bg-white/80 p-2.5 rounded-xl border border-black/10 text-xs font-serif italic text-[#2D1B36]">
+                    <span className="not-italic font-sans font-black text-[10px] uppercase text-emerald-800 bg-emerald-100 px-1.5 py-0.5 rounded mr-1.5">
+                      📖 In the text
+                    </span>
+                    "{currentQ.textEvidence}"
+                  </div>
+                )}
                 <p className="text-xs font-serif leading-relaxed text-[#2D1B36]/90">
-                  <strong className="font-sans font-black">Why this is right: </strong>
+                  <strong className="font-sans font-black">Answer Explanation: </strong>
                   {currentQ.explanation}
                 </p>
               </motion.div>
@@ -522,7 +534,7 @@ export const DailyQuiz: React.FC<DailyQuizProps> = ({
                 className="flex items-center gap-3 bg-[#A7D49B] text-[#2D1B36] px-5 py-3 rounded-2xl font-black text-xs shadow-md border-2 border-[#80C272]"
               >
                 <Sparkles className="w-5 h-5 text-[#2D1B36]" />
-                <span>Unlocked: +1 Rare Dahl Scholar Crest & Pet Level Boost!</span>
+                <span>Unlocked: +1 Rare Victorian Scholar Crest & Pet Level Boost!</span>
               </motion.div>
             )}
           </div>
